@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe328183-5a2f-4eea-ae57-a16f56606c8f">
+  <name>СРО_МакетКонтрольныеСоотношения_4кв2018</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макет контрольные соотношения 4кв2018 (СРО)</value>
+  </synonym>
+</mdclass:CommonTemplate>

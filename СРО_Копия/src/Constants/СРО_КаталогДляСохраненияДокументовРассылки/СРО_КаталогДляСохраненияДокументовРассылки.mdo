@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6438e385-9132-49ce-bd4c-a5b3fcbe18b5">
+  <producedTypes>
+    <managerType typeId="d599aa6b-7c20-49d4-a60c-05859ac43da1" valueTypeId="8085de0e-9866-4b74-982d-2c45b4c1eb49"/>
+    <valueManagerType typeId="7745ee1a-caf8-45d2-9463-b725a071cf3b" valueTypeId="177040ec-23bb-4d8f-b34b-caf94a4912d6"/>
+    <valueKeyType typeId="88c00646-a859-4861-9dca-fef08da202a2" valueTypeId="a8ac9439-d9e8-493c-a3de-85dc681d0514"/>
+  </producedTypes>
+  <name>СРО_КаталогДляСохраненияДокументовРассылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог для сохранения документов рассылки (СРО)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

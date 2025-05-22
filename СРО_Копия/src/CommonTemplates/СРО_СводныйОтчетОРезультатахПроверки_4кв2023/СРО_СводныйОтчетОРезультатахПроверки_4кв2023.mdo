@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="418be08b-5553-4a0e-90bf-63b5760e21f8">
+  <name>СРО_СводныйОтчетОРезультатахПроверки_4кв2023</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный отчет о результатах проверки 4 кв 2023</value>
+  </synonym>
+</mdclass:CommonTemplate>

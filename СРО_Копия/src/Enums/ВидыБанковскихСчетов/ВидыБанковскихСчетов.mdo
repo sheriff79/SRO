@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1e28125-5c0f-4979-8ef5-d7c6273acc59">
+  <producedTypes>
+    <refType typeId="40ed3f94-087f-440e-b3ce-8f198e472c91" valueTypeId="0e7ef454-3911-44f7-b0af-debc2fedfef5"/>
+    <listType typeId="60d4e5cb-88a4-40cf-b621-70a1c5918389" valueTypeId="7d80d3cc-ae66-4c34-8893-374d06b48cae"/>
+    <managerType typeId="70e698a2-9368-4e2a-8046-3519e992347f" valueTypeId="2514621d-50a1-4f49-9477-4928c8fdf076"/>
+  </producedTypes>
+  <name>ВидыБанковскихСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды банковских счетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6bbce2ed-3172-42a0-9acf-6d3e73ded7b4">
+    <name>ТекущийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aec05296-f434-4625-8c1d-da1af27f6be4">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bbe28df-94b7-4128-8c09-bf6777412600">
+    <name>ВалютныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютный счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82101541-4d9a-4d6f-930d-f8362c990dcb">
+    <name>СчетДоверительногоУправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет доверительного управления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1554d238-a2bb-4f9c-a14e-41a96ba36a5e">
+    <name>СпециальныйБанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный банковский счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3db05def-b2ff-4a97-9293-1511ce795bf8">
+    <name>СчетПоВкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет по вкладам</value>
+    </synonym>
+    <comment>Счет по вкладам (депозитам)</comment>
+  </enumValues>
+  <enumValues uuid="f560040c-4a3e-434d-a5e9-1152ebaf64d7">
+    <name>ИныеСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иные счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9b82021-7a28-4d22-a1ea-abf8df3ad52c">
+    <name>СчетПоДепозиту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет по депозиту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="115db40e-0ea7-4dc0-b92e-c0e5ea07f3c6">
+    <name>СпециальныйБрокерскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный брокерский счет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

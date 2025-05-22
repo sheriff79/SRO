@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a414e2f4-58fc-4abc-8308-40c8e332f9e7">
+  <producedTypes>
+    <refType typeId="8fee9082-452a-4281-b683-c6726709495c" valueTypeId="5766853a-d61d-4bd1-a9f5-0e07ca067d64"/>
+    <listType typeId="104e0dc2-cbf8-4e16-8bbe-7ac7cb5a0487" valueTypeId="49c162c6-72b6-43b6-af2c-2cf6b2e4ebca"/>
+    <managerType typeId="19ee879f-a864-4a16-9d49-c78fa8251924" valueTypeId="bbf53812-8a4f-45aa-afad-0ddc60eebff2"/>
+  </producedTypes>
+  <name>ТипДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип документа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d12b49b9-b8c0-45fb-b7f5-9ea6df0dd066">
+    <name>ОтчетОДеятельностиКооператива</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОДК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39ea51a4-c470-4483-95e2-0e645c059f79">
+    <name>ОтчетОПерсональномСоставе</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОПС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="775e9cdb-25cc-4576-afba-e8419acb02d7">
+    <name>ОтчетОДеятельностиКооперативаРазделы10_11</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОДК (Разделы 10 и 11)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52d9c406-eb41-48d4-8a52-b8293bcb1a26">
+    <name>БухгалтерскаяОтчетность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерская отчетность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4763065-301e-42f2-9a07-ac50e51d9444">
+    <name>ОтчетОбОперацияхДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет об операциях с ДС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

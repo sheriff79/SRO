@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1566b447-8a64-4540-a598-94c846576194">
+  <producedTypes>
+    <managerType typeId="ad2594c7-d2b7-4785-8201-63d583ed6408" valueTypeId="b2be1f87-86ac-4c50-b896-3bc25a774701"/>
+    <valueManagerType typeId="575d3dca-20c7-4ce2-a6cd-683bc7f08891" valueTypeId="b6d15219-a520-4c60-84e9-79ed507cb19a"/>
+    <valueKeyType typeId="e290b0c1-7ee9-4c20-a387-bec5ae5e2244" valueTypeId="e63e503e-38f2-4f33-bf1e-90d7c324955c"/>
+  </producedTypes>
+  <name>СРО_ПоследнийНомерПакетаВСРО_РазделыX_XI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последний номер пакета ВСРО разделы X или XI (СРО)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

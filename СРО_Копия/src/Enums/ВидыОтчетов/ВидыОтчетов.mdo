@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def6c4c6-e479-4271-bb32-751325205c4e">
+  <producedTypes>
+    <refType typeId="e12577c5-52fd-4655-bffd-5d9c1f9276be" valueTypeId="7be8a5cb-2533-4223-a53b-7677dc0a6b76"/>
+    <listType typeId="187e2ec4-e393-4f73-9f09-c9ebb72b98eb" valueTypeId="982d7f98-a5fd-47e5-8ae7-f0af246fbe00"/>
+    <managerType typeId="487762a2-e8ed-4fee-bd29-2009e4ab0262" valueTypeId="9807e2ad-4051-4aab-b78d-8e45d1a46f36"/>
+  </producedTypes>
+  <name>ВидыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82814e08-9f40-4309-81e6-01fdefee60f4">
+    <name>Квартал1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ffdf1bb-4ade-4cd9-a0d2-06e58aa547ac">
+    <name>Квартал2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="773f7afa-2cb4-4aad-ad08-a117570863a7">
+    <name>Квартал3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45d9f981-6db6-4edf-af5a-f8c612a9bf88">
+    <name>Годовой90Дней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовой (90 дней)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67abecd4-7e19-448b-9ba8-be62eec075d8">
+    <name>Годовой30Дней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовой (30 дней)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5fac499-1ded-4f61-95da-f137166a31c7">
+    <name>ДанныеНаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные на дату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf239c26-8914-416a-b1e2-a3a919806625">
+    <name>НаНерегулярнойОснове</name>
+    <synonym>
+      <key>ru</key>
+      <value>На нерегулярной основе</value>
+    </synonym>
+    <comment>Для документа &quot;ОтчетОПерсональномСоставеКооператива&quot;</comment>
+  </enumValues>
+  <enumValues uuid="87877f76-c44f-4c30-b44a-a02fe44e63ce">
+    <name>Годовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовой</value>
+    </synonym>
+    <comment>Для документа &quot;ОтчетОПерсональномСоставеКооператива&quot;</comment>
+  </enumValues>
+</mdclass:Enum>

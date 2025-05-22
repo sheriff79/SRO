@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed00796e-4042-4779-a825-1a13d3a0a01f">
+  <name>СРО_СводныйОтчетОРезультатахПроверки_1кв2022</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный отчет о результатах проверки 1 кв 2022 (формат 2.16.4) (СРО)</value>
+  </synonym>
+</mdclass:CommonTemplate>

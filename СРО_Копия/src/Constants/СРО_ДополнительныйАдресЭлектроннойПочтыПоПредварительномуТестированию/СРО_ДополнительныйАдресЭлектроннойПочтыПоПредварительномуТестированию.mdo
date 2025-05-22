@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bbbbb67-abc6-418d-8f85-2d6ffa5a22b9">
+  <producedTypes>
+    <managerType typeId="26ee5fbb-482f-45bb-b560-0da7c243de44" valueTypeId="e8a1f97a-9a3c-49b4-b3b4-173c8ad20d02"/>
+    <valueManagerType typeId="d417aea1-1b66-4e4f-b9fe-f7a0801d44f8" valueTypeId="fb190bc7-e37e-4a14-befd-d927049ff0ae"/>
+    <valueKeyType typeId="0bbfc476-154a-5aea-832b-13b8e51362d7" valueTypeId="0cd9df66-5e2b-5d22-886f-a5ca67da6f8b"/>
+  </producedTypes>
+  <name>СРО_ДополнительныйАдресЭлектроннойПочтыПоПредварительномуТестированию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная электронная почта для ответов по предварительному тестированию</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daa7552f-c0ac-46cd-8bde-fc79ec039a87">
+  <producedTypes>
+    <selectionType typeId="93d2b974-5a62-4482-bbb0-c0e1a04f629a" valueTypeId="02c67060-52e1-4e32-b56c-57bae343af1f"/>
+    <listType typeId="8287667e-1d33-458f-a7c9-05ed3313ecae" valueTypeId="f7445e33-9433-4635-885c-87e9ccccc03a"/>
+    <managerType typeId="c5041dc1-af87-4f37-8fa9-9b29bb66e370" valueTypeId="dda24586-0c73-4e72-84a5-70cf21bcfd64"/>
+    <recordSetType typeId="fd29e6db-e245-480f-a2af-9025ddf0d471" valueTypeId="e26c3e1b-2b7e-498e-b3c3-30cdcc451632"/>
+    <recordKeyType typeId="eadf5ed9-550a-453e-9617-64f3c235aff1" valueTypeId="ed0404b4-0bb2-4e44-83a1-c82f4d596991"/>
+    <recordType typeId="b47e5ab6-e351-47ed-b363-32aa20128d0b" valueTypeId="57055143-62d8-4fec-a3f0-bc87dbe64af8"/>
+    <recordManagerType typeId="4c12b472-38b4-42d9-98d3-a97c009d46de" valueTypeId="dbc2be76-5123-4643-af16-51b9cda88832"/>
+  </producedTypes>
+  <name>СРО_КодыВысылаемыхОтчетовПольхователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды высылаемых отчетов польхователям (СРО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СРО_КодыВысылаемыхОтчетовПольхователям.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d94e349f-1837-4195-8761-656859487451">
+    <name>КодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код отчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0dbf096a-f3aa-4650-9dc2-45c087103a87">
+    <name>НазваниеОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название отчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="febcb012-c1b7-481b-b51b-d4ba3ae9fab8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fb56a17-b3f6-46cb-ab26-f437adc91f80">
+  <producedTypes>
+    <objectType typeId="25b5b384-8dd7-4624-9e6f-82d144b92a42" valueTypeId="d29315ee-2f7f-4307-ae5b-83c4a8309abc"/>
+    <managerType typeId="69b99489-3c0c-4904-8cf0-b7f1fd3b003a" valueTypeId="4e1ad14e-9770-4e9a-8055-87ad35d4826c"/>
+  </producedTypes>
+  <name>СРО_ПроверкаОтчетностиСРассылкойПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка отчетности (с рассылкой писем) (СРО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СРО_ПроверкаОтчетностиСРассылкойПисем.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="55128722-d50d-47a4-b6ce-8b81b2ae43d3">
+    <name>ОтчетностьСРО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчетность СРО</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОтчетностьКПК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e08662a5-f124-454c-a679-a9dbe9c1c421">
+    <name>ПредварительнаяПроверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительная проверка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="5f4d6215-485e-4a72-9e51-0881f1c8dee5">
+    <producedTypes>
+      <objectType typeId="1cb6c9ee-0b21-42cb-ad67-949027558339" valueTypeId="d9c75d86-36a2-4af1-b5bc-e0d616117bfc"/>
+      <rowType typeId="d9e65ec8-c1d6-4618-835c-44ab4f04c96d" valueTypeId="6facaa87-270b-432a-8356-7e701689d3fa"/>
+    </producedTypes>
+    <name>ТаблицаОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица ошибок</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="54171d7d-187d-4745-8ee3-5323421703cb">
+      <name>КПК</name>
+      <synonym>
+        <key>ru</key>
+        <value>КПК</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="933a7106-94d2-46e6-9213-d9eb3ddb9f71">
+      <name>НазваниеТаблицы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название таблицы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="8dbe1786-3027-4681-b1f8-2f957bd76169">
+      <name>ОписаниеОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание ошибки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="77261b3f-87ed-4a89-9496-4fa0d4a3e980">
+      <name>ОписаниеУсловия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание условия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5291f588-5612-4acd-844d-5b38fb645a81">
+      <name>КоличествоОшибок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество ошибок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="00353821-5b52-4b00-ac75-3b09b3f7c837">
+      <name>ПорядокСортировки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок сортировки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5a4276ae-e482-422b-9a90-6782937afbda">
+      <name>НомерВРеестреСРО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер в реестре СРО</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="700b6383-385c-4ec2-81a6-d9c246ad3dda">
+      <name>КодОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код ошибки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ac969b29-542d-4983-987b-f5bdcd68d357">
+      <name>НомерПоПорядку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер по порядку</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="19445d4a-4d3e-4d27-9ab3-f7bf3fa75049">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="473f766b-40bf-4755-a833-e96c468a223b">
+    <name>ФормаОписанияОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма описания ошибок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57e881df-cd61-436d-902d-cd0158a4a0a4">
+    <name>ФормаДляРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для рассылки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fbbdca8f-44d4-48e4-aba3-6a282572ce04">
+    <name>ФормаОтбораПоСписку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора по списку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="522edea0-95f8-4363-9cbe-a14286524215">
+    <name>МакетНормативы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет нормативы</value>
+    </synonym>
+  </templates>
+  <templates uuid="70475a9a-84b3-4e53-b1d8-dd181d44ad41">
+    <name>Ошибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки</value>
+    </synonym>
+  </templates>
+  <templates uuid="8eb058cb-f51e-465b-a297-e3d6b93e4386">
+    <name>МакетКонтрольныеСоотношения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет контрольные соотношения</value>
+    </synonym>
+  </templates>
+  <templates uuid="c65d8f44-58fc-4e04-937f-8fd07ed8501f">
+    <name>МакетРВПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет РВПЗ</value>
+    </synonym>
+  </templates>
+  <templates uuid="f33c42e4-6ab1-4b16-819a-6f2a7862e1ac">
+    <name>МакетКС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет КС</value>
+    </synonym>
+  </templates>
+  <templates uuid="53f39ea3-bfbb-461c-bb54-6bf635fee2bf">
+    <name>РасшифровкаОшибков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка ошибков</value>
+    </synonym>
+  </templates>
+  <templates uuid="fa29d208-2c90-4254-b97c-ffa857a97489">
+    <name>МакетНормативыПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет нормативы период</value>
+    </synonym>
+  </templates>
+  <templates uuid="8bb3b994-45b3-4448-ab46-eb21ada5f489">
+    <name>МакетКонтрольныеСоотношенияПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет контрольные соотношения период</value>
+    </synonym>
+  </templates>
+  <templates uuid="ae94fc94-eb85-4817-a352-ce2b1f780430">
+    <name>МакетКСПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет КСПериод</value>
+    </synonym>
+  </templates>
+  <templates uuid="fcbc313a-a0d1-4561-b726-a622f49b007f">
+    <name>МакетКонтрольныеСоотношения_4кв2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет контрольные соотношения 4кв2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="1995a094-13e8-44d3-b537-81b0abc3bbe3">
+    <name>МакетКонтрольныеСоотношения_4кв2018Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет контрольные соотношения 4кв2018 период</value>
+    </synonym>
+  </templates>
+  <templates uuid="9bfbc7b9-69b4-4af4-9f4e-7118aaf16f6b">
+    <name>МакетНормативы_4кв2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет нормативы 4кв2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="e9707a4e-5b4f-4cc2-94b3-6b050ae6235f">
+    <name>МакетНормативы_4кв2018Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет нормативы 4кв2018 период</value>
+    </synonym>
+  </templates>
+  <templates uuid="aca8aa30-eab8-4965-b3c1-7ce6c1f16a6d">
+    <name>МакетКС_4кв2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет к с 4кв2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed9f99d9-1ee6-4c04-9dd4-996ed1de7707">
+    <name>МакетКС_4кв2018Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет к с 4кв2018 период</value>
+    </synonym>
+  </templates>
+  <templates uuid="3cd8ada1-cc3d-4e48-a867-2e3ce34b62a7">
+    <name>СводныйОтчетОРезультатахПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводный отчет о результатах проверки</value>
+    </synonym>
+  </templates>
+  <templates uuid="fae5ecf4-16f4-4437-8a75-44eba0795c11">
+    <name>ПисьмоВКПКОбОшибках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо в КПК об ошибках</value>
+    </synonym>
+  </templates>
+  <templates uuid="fdcc1008-2b47-40c9-b004-483880123033">
+    <name>ПисьмоВКПКОбОшибках_ВторичныйКонтроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо в КПК об ошибках</value>
+    </synonym>
+  </templates>
+  <templates uuid="1d31e30c-4606-4c09-8f10-4144c9995882">
+    <name>ПисьмоВКПКОбОшибках_ВторичныйКонтрольФорма3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо в КПК об ошибках</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

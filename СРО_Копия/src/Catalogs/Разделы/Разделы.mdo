@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4553b91e-3f71-49ef-963d-a28d490ccaf8">
+  <producedTypes>
+    <objectType typeId="e2b25c96-b44d-4461-a914-7ee779e50d5c" valueTypeId="b55ac6ad-a714-46bd-94bd-0b368ba6af52"/>
+    <refType typeId="2ead7671-45bd-4d54-b84b-a922d4b80ec7" valueTypeId="9528af2a-b721-4c12-8104-a0278ce2280b"/>
+    <selectionType typeId="6c505263-69fd-4e07-8671-dee3db1381fa" valueTypeId="1064648a-7c3e-425a-b1ad-4e5529d23a9f"/>
+    <listType typeId="433d941b-8852-4d6b-b21a-0af395256354" valueTypeId="cc319d03-ac3c-4eb1-9138-63c340d92567"/>
+    <managerType typeId="8386ef30-acad-48d2-941b-aa95cf84ddf4" valueTypeId="4b99eaaf-881e-441e-a8b4-28428ce6a87f"/>
+  </producedTypes>
+  <name>Разделы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Разделы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Разделы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>9</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>15</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="57d4d0c6-f207-4ee7-ab69-58a807bc74e7">
+      <name>Раздел1</name>
+      <description>Раздел 1</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел1</value>
+      </code>
+    </items>
+    <items id="b3588223-1297-4f41-8477-cb666cf9f520">
+      <name>Раздел10</name>
+      <description>Раздел 10</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел10</value>
+      </code>
+    </items>
+    <items id="7221b037-432f-4167-ab0a-deb4bbced931">
+      <name>Раздел11</name>
+      <description>Раздел 11</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел11</value>
+      </code>
+      <content id="666a4177-5770-4a92-90f0-5c228a2de3b7">
+        <name>Раздел11_1</name>
+        <description>Раздел11 1</description>
+        <code xsi:type="core:StringValue">
+          <value>11_1</value>
+        </code>
+      </content>
+      <content id="5e771dda-898e-438e-9f69-eb19fc22dd80">
+        <name>Раздел11_2</name>
+        <description>Раздел11 2</description>
+        <code xsi:type="core:StringValue">
+          <value>11_2</value>
+        </code>
+      </content>
+      <content id="909ee198-a1f1-469f-8225-9821ce31075f">
+        <name>Раздел11_3</name>
+        <description>Раздел11 3</description>
+        <code xsi:type="core:StringValue">
+          <value>11_3</value>
+        </code>
+      </content>
+      <content id="ab40f2cf-c388-4caa-a66c-19aaf1376274">
+        <name>Раздел11_4</name>
+        <description>Раздел11 4</description>
+        <code xsi:type="core:StringValue">
+          <value>11_4</value>
+        </code>
+      </content>
+      <content id="429b0cb7-3770-44bf-bdcf-6b3802e32082">
+        <name>Раздел11_5</name>
+        <description>Раздел11 5</description>
+        <code xsi:type="core:StringValue">
+          <value>11_5</value>
+        </code>
+      </content>
+      <content id="75855afa-237f-471e-aa16-0694d9d715b5">
+        <name>Раздел11_6</name>
+        <description>Раздел11 6</description>
+        <code xsi:type="core:StringValue">
+          <value>11_6</value>
+        </code>
+      </content>
+      <content id="af4330a8-a73d-41df-b3b9-b23abc516ea2">
+        <name>Раздел11_7</name>
+        <description>Раздел11 7</description>
+        <code xsi:type="core:StringValue">
+          <value>11_7</value>
+        </code>
+      </content>
+      <content id="10072635-2e54-496b-b662-de0a03767b01">
+        <name>Раздел11_8</name>
+        <description>Раздел11 8</description>
+        <code xsi:type="core:StringValue">
+          <value>11_8</value>
+        </code>
+      </content>
+    </items>
+    <items id="f4227e5a-a1b9-4a0b-a666-2c451cf2b9d6">
+      <name>Раздел12</name>
+      <description>Раздел 12</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел12</value>
+      </code>
+    </items>
+    <items id="0939f780-c66a-4d97-b933-e7f17cbb428c">
+      <name>Раздел13</name>
+      <description>Раздел 13</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел13</value>
+      </code>
+    </items>
+    <items id="e222e835-4e1e-4398-bc2c-eee4cb715541">
+      <name>Раздел2</name>
+      <description>Раздел 2</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел2</value>
+      </code>
+      <content id="fd484c00-10a3-4c96-8e50-9ccc29df47f8">
+        <name>Раздел2_1</name>
+        <description>Раздел2 1</description>
+        <code xsi:type="core:StringValue">
+          <value>2_1</value>
+        </code>
+        <content id="45b19fe0-1c61-422d-b911-0e9a2ce1c757">
+          <name>Раздел2_1_1</name>
+          <description>Раздел2 1.1</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_1</value>
+          </code>
+          <content id="792ee9f7-aad9-42d3-9fb5-f023e1d5edfd">
+            <name>Раздел2_1_1_1</name>
+            <description>Раздел2 1.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_1_1</value>
+            </code>
+          </content>
+          <content id="0f61c2b8-7de1-42b3-b757-03a2b537c8c6">
+            <name>Раздел2_1_1_2</name>
+            <description>Раздел2 1.1.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_1_2</value>
+            </code>
+          </content>
+          <content id="0029ac98-fe13-4a5e-b393-1d5e48fa3726">
+            <name>Раздел2_1_1_3</name>
+            <description>Раздел2 1.1.3</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_1_3</value>
+            </code>
+          </content>
+        </content>
+        <content id="9313daf1-4465-420f-9453-8fc914bcc117">
+          <name>Раздел2_1_10</name>
+          <description>Раздел2 1.10</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_10</value>
+          </code>
+        </content>
+        <content id="6b9d8946-a7ae-422f-921b-2735c5faf074">
+          <name>Раздел2_1_11</name>
+          <description>Раздел2 1.11</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_11</value>
+          </code>
+        </content>
+        <content id="39c7a527-1b84-4851-b755-a56eac33fd8f">
+          <name>Раздел2_1_12</name>
+          <description>Раздел2 1.12</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_12</value>
+          </code>
+          <content id="53a9bc0a-0131-4927-a157-0c3fa120a493">
+            <name>Раздел2_1_12_1</name>
+            <description>Раздел2 1.12.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_12_1</value>
+            </code>
+            <content id="b662dcbb-dec5-42de-8114-04973e1a9f25">
+              <name>Раздел2_1_12_1_1</name>
+              <description>Раздел2 1.12.1.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_1_12_1_1</value>
+              </code>
+            </content>
+          </content>
+          <content id="e118406c-367b-459e-9155-386b5fac29af">
+            <name>Раздел2_1_12_2</name>
+            <description>Раздел2 1.12.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_12_2</value>
+            </code>
+          </content>
+          <content id="a917b5ec-8fa6-47fe-a594-5020ba45d6d5">
+            <name>Раздел2_1_12_3</name>
+            <description>Раздел2 1.12.3</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_12_3</value>
+            </code>
+          </content>
+          <content id="90cbf4fc-766f-4d7a-b66e-97efa8a93f19">
+            <name>Раздел2_1_12_4</name>
+            <description>Раздел2 1.12.4</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_12_4</value>
+            </code>
+          </content>
+        </content>
+        <content id="649c937c-2d4c-4d04-9670-6bd14347826e">
+          <name>Раздел2_1_13</name>
+          <description>Раздел2 1.13</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_13</value>
+          </code>
+        </content>
+        <content id="4257989f-7299-4967-b5f9-45ffcbabcea3">
+          <name>Раздел2_1_2</name>
+          <description>Раздел2 1.2</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_2</value>
+          </code>
+          <content id="aa31e974-371d-4844-9ae3-b163f85751b6">
+            <name>Раздел2_1_2_1</name>
+            <description>Раздел2 1.2.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_2_1</value>
+            </code>
+          </content>
+          <content id="6204fd79-22dd-4404-b54c-c547118c0e1c">
+            <name>Раздел2_1_2_2</name>
+            <description>Раздел2 1.2.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_2_2</value>
+            </code>
+          </content>
+          <content id="6cc2dbb4-aa27-4d22-ae68-651eef404f56">
+            <name>Раздел2_1_2_3</name>
+            <description>Раздел2 1.2.3</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_2_3</value>
+            </code>
+          </content>
+        </content>
+        <content id="8bc27707-408d-428a-87c6-b333ab778654">
+          <name>Раздел2_1_3</name>
+          <description>Раздел2 1.3</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_3</value>
+          </code>
+          <content id="77a5d0c7-d516-4d9d-93ae-7c53c7bb5a64">
+            <name>Раздел2_1_3_1</name>
+            <description>Раздел2 1.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_3_1</value>
+            </code>
+          </content>
+          <content id="720d9fe9-af8a-411a-8d17-677def88c868">
+            <name>Раздел2_1_3_2</name>
+            <description>Раздел2 1.3.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_3_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="eba8c2b9-1aa3-4728-8536-7bb1c8ec2d9c">
+          <name>Раздел2_1_4</name>
+          <description>Раздел2 1.4</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_4</value>
+          </code>
+          <content id="5445ec22-4dca-468b-a680-0abda6a94883">
+            <name>Раздел2_1_4_1</name>
+            <description>Раздел2 1.4.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_4_1</value>
+            </code>
+          </content>
+          <content id="f9a33b91-7f21-4fcd-b045-72fa5324187a">
+            <name>Раздел2_1_4_2</name>
+            <description>Раздел2 1.4.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_4_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="bd96b10f-cb7f-46ad-b04e-5678c746f26f">
+          <name>Раздел2_1_5</name>
+          <description>Раздел2 1.5</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_5</value>
+          </code>
+          <content id="89d330e3-48ed-47ab-9169-c47f8ff0c362">
+            <name>Раздел2_1_5_1</name>
+            <description>Раздел2 1.5.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_5_1</value>
+            </code>
+          </content>
+          <content id="c1bd852a-1d7d-4739-b09b-ac2d4e9a19d2">
+            <name>Раздел2_1_5_2</name>
+            <description>Раздел2 1.5.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_5_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="92f67e17-a586-44f8-baba-7667cc1c28c5">
+          <name>Раздел2_1_6</name>
+          <description>Раздел2 1.6</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_6</value>
+          </code>
+        </content>
+        <content id="ab8558ae-9453-4abf-ac08-fbbc16ef133f">
+          <name>Раздел2_1_7</name>
+          <description>Раздел2 1.7</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_7</value>
+          </code>
+          <content id="d7e71e6c-1fe7-40c1-859d-91bd1b92cdb6">
+            <name>Раздел2_1_7_1</name>
+            <description>Раздел2 1.7.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_7_1</value>
+            </code>
+          </content>
+          <content id="ebe07ff6-ea43-4b51-97e6-5cbae00798e1">
+            <name>Раздел2_1_7_2</name>
+            <description>Раздел2 1.7.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_7_2</value>
+            </code>
+          </content>
+          <content id="bb5949e5-ed73-4c25-aae1-46280c0d2643">
+            <name>Раздел2_1_7_3</name>
+            <description>Раздел2 1.7.3</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_7_3</value>
+            </code>
+          </content>
+        </content>
+        <content id="2a7b0370-7238-4a8a-bac6-e787f02117f6">
+          <name>Раздел2_1_8</name>
+          <description>Раздел2 1.8</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_8</value>
+          </code>
+          <content id="0eb4dd64-84e0-496b-a922-e8f10f384250">
+            <name>Раздел2_1_8_1</name>
+            <description>Раздел2 1.8.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_8_1</value>
+            </code>
+          </content>
+          <content id="bfb105cb-632e-41d0-b64d-dcf59c657327">
+            <name>Раздел2_1_8_2</name>
+            <description>Раздел2 1.8.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_8_2</value>
+            </code>
+          </content>
+          <content id="e3563852-808c-43e2-886d-476ea7c7b446">
+            <name>Раздел2_1_8_3</name>
+            <description>Раздел2 1.8.3</description>
+            <code xsi:type="core:StringValue">
+              <value>2_1_8_3</value>
+            </code>
+          </content>
+        </content>
+        <content id="fdf642c2-49d7-457f-8be8-a51efc1c9761">
+          <name>Раздел2_1_9</name>
+          <description>Раздел2 1.9</description>
+          <code xsi:type="core:StringValue">
+            <value>2_1_9</value>
+          </code>
+        </content>
+      </content>
+      <content id="4f72fb5c-473e-40b0-9169-c4d9ae7fe59f">
+        <name>Раздел2_2</name>
+        <description>Раздел2 2</description>
+        <code xsi:type="core:StringValue">
+          <value>2_2</value>
+        </code>
+        <content id="3c2acb9d-1e76-45ab-935d-7d4fbcf862e4">
+          <name>Раздел2_2_1</name>
+          <description>Раздел2 2.1</description>
+          <code xsi:type="core:StringValue">
+            <value>2_2_1</value>
+          </code>
+          <content id="f0eef8be-2424-48e1-9b30-646025230ecf">
+            <name>Раздел2_2_1_1</name>
+            <description>Раздел2 2.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_2_1_1</value>
+            </code>
+            <content id="41171b4d-9bcd-4613-9fb6-5d0856b834cb">
+              <name>Раздел2_2_1_1_1</name>
+              <description>Раздел2 2.1.1.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_2_1_1_1</value>
+              </code>
+            </content>
+            <content id="53a427d1-d852-4e5e-9803-6a89e540db35">
+              <name>Раздел2_2_1_1_2</name>
+              <description>Раздел2 2.1.1.2</description>
+              <code xsi:type="core:StringValue">
+                <value>2_2_1_1_2</value>
+              </code>
+            </content>
+          </content>
+          <content id="44c3ecab-63f6-4291-a77e-f74ea5f4e1c8">
+            <name>Раздел2_2_1_2</name>
+            <description>Раздел2 2.1.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_2_1_2</value>
+            </code>
+            <content id="7b8c8720-1178-401e-8df0-62cbaede93e3">
+              <name>Раздел2_2_1_2_1</name>
+              <description>Раздел2 2.1.2.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_2_1_2_1</value>
+              </code>
+            </content>
+            <content id="7e5c2516-85c8-4d56-887d-4be6b70bf860">
+              <name>Раздел2_2_1_2_2</name>
+              <description>Раздел2 2.1.2.2</description>
+              <code xsi:type="core:StringValue">
+                <value>2_2_1_2_2</value>
+              </code>
+            </content>
+          </content>
+        </content>
+        <content id="d01cd5d3-d356-4c8a-b92e-512e7c89a181">
+          <name>Раздел2_2_2</name>
+          <description>Раздел2 2.2</description>
+          <code xsi:type="core:StringValue">
+            <value>2_2_2</value>
+          </code>
+        </content>
+        <content id="7893b2ae-779a-440f-9da1-2f34602deebc">
+          <name>Раздел2_2_3</name>
+          <description>Раздел2 2.3</description>
+          <code xsi:type="core:StringValue">
+            <value>2_2_3</value>
+          </code>
+          <content id="325c9837-2375-44d8-8afc-7fc9d586c1e1">
+            <name>Раздел2_2_3_1</name>
+            <description>Раздел2 2.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_2_3_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="b8d02854-4090-4be4-a643-73f70265d072">
+          <name>Раздел2_2_4</name>
+          <description>Раздел2 2.4</description>
+          <code xsi:type="core:StringValue">
+            <value>2_2_4</value>
+          </code>
+        </content>
+      </content>
+      <content id="18a1badc-6c80-4a25-9b5b-0fabfcbe3951">
+        <name>Раздел2_3</name>
+        <description>Раздел2 3</description>
+        <code xsi:type="core:StringValue">
+          <value>2_3</value>
+        </code>
+        <content id="cc249895-3a6d-4a06-8f76-8f0fdb373f26">
+          <name>Раздел2_3_1</name>
+          <description>Раздел2 3.1</description>
+          <code xsi:type="core:StringValue">
+            <value>2_3_1</value>
+          </code>
+          <content id="c0213366-5ce3-4cff-8aec-c0538907b056">
+            <name>Раздел2_3_1_1</name>
+            <description>Раздел2 3.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_1_1</value>
+            </code>
+          </content>
+          <content id="769f1970-ee2a-4686-b728-1f5b4dabf235">
+            <name>Раздел2_3_1_2</name>
+            <description>Раздел2 3.1.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_1_2</value>
+            </code>
+            <content id="f4962dce-0f34-4d99-8253-8169ad037de7">
+              <name>Раздел2_3_1_2_1</name>
+              <description>Раздел2 3.1.2.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_1_2_1</value>
+              </code>
+            </content>
+          </content>
+          <content id="f89d49f1-150f-44b3-8ccd-a63d55c924de">
+            <name>Раздел2_3_1_3</name>
+            <description>Раздел2 3.1.3</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_1_3</value>
+            </code>
+            <content id="3671c86c-5d4e-4a38-ac86-f0797a7d21be">
+              <name>Раздел2_3_1_3_1</name>
+              <description>Раздел2 3.1.3.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_1_3_1</value>
+              </code>
+            </content>
+            <content id="1c5fb437-9f64-4f39-8914-8725a1cea4a4">
+              <name>Раздел2_3_1_3_2</name>
+              <description>Раздел2 3.1.3.2</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_1_3_2</value>
+              </code>
+            </content>
+            <content id="1085ed68-1a50-4fd9-8696-616ce1fde310">
+              <name>Раздел2_3_1_3_3</name>
+              <description>Раздел2 3.1.3.3</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_1_3_3</value>
+              </code>
+            </content>
+          </content>
+        </content>
+        <content id="3fe9bd70-8434-4a80-968b-7219ec1eb590">
+          <name>Раздел2_3_2</name>
+          <description>Раздел2 3.2</description>
+          <code xsi:type="core:StringValue">
+            <value>2_3_2</value>
+          </code>
+          <content id="ad9beb8d-ccfd-4e7a-b345-afc87ef64d68">
+            <name>Раздел2_3_2_1</name>
+            <description>Раздел2 3.2.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_2_1</value>
+            </code>
+          </content>
+          <content id="8709aa86-e9e1-466e-89c1-44e6a1c354a1">
+            <name>Раздел2_3_2_2</name>
+            <description>Раздел2 3.2.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_2_2</value>
+            </code>
+            <content id="be2f515e-7894-4891-b939-8defa1373025">
+              <name>Раздел2_3_2_2_1</name>
+              <description>Раздел2 3.2.2.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_2_2_1</value>
+              </code>
+            </content>
+          </content>
+          <content id="3a2b693e-d06d-48c9-b869-f73c3f98e5df">
+            <name>Раздел2_3_2_3</name>
+            <description>Раздел2 3.2.3</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_2_3</value>
+            </code>
+            <content id="1ed86eef-f9de-44a2-9c04-dd1a652bb41d">
+              <name>Раздел2_3_2_3_1</name>
+              <description>Раздел2 3.2.3.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_2_3_1</value>
+              </code>
+            </content>
+            <content id="41e73203-e6f5-47a3-b58c-4efe3900d4b4">
+              <name>Раздел2_3_2_3_2</name>
+              <description>Раздел2 3.2.3.2</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_2_3_2</value>
+              </code>
+            </content>
+            <content id="119a7d28-49a3-43ba-a4ac-388879bd8383">
+              <name>Раздел2_3_2_3_3</name>
+              <description>Раздел2 3.2.3.3</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_2_3_3</value>
+              </code>
+            </content>
+          </content>
+        </content>
+        <content id="e1860309-24c9-4b89-9f1c-3aecff8fb108">
+          <name>Раздел2_3_3</name>
+          <description>Раздел2 3.3</description>
+          <code xsi:type="core:StringValue">
+            <value>2_3_3</value>
+          </code>
+          <content id="aae4aae9-d9eb-4314-9cb1-21dbf4619e75">
+            <name>Раздел2_3_3_1</name>
+            <description>Раздел2 3.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_3_1</value>
+            </code>
+            <content id="7e67c0e9-2aa2-4b55-b6a6-2b0f44a2412e">
+              <name>Раздел2_3_3_1_1</name>
+              <description>Раздел2 3.3.1.1</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_3_1_1</value>
+              </code>
+            </content>
+            <content id="21844ec0-6606-447f-9e0f-87276ba5320b">
+              <name>Раздел2_3_3_1_2</name>
+              <description>Раздел2 3.3.1.2</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_3_1_2</value>
+              </code>
+            </content>
+            <content id="343dc21b-ab6f-44f3-9bd8-fdb832809e30">
+              <name>Раздел2_3_3_1_3</name>
+              <description>Раздел2 3.3.1.3</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_3_1_3</value>
+              </code>
+            </content>
+            <content id="5c31be54-66a3-4fae-bf1b-4bd0fab7ebeb">
+              <name>Раздел2_3_3_1_4</name>
+              <description>Раздел2 3.3.1.4</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_3_1_4</value>
+              </code>
+            </content>
+            <content id="cef4597a-df9b-4f7e-b7e1-31ba4415020d">
+              <name>Раздел2_3_3_1_5</name>
+              <description>Раздел2 3.3.1.5</description>
+              <code xsi:type="core:StringValue">
+                <value>2_3_3_1_5</value>
+              </code>
+            </content>
+          </content>
+          <content id="e077bdd0-98d0-4323-815e-403ab08fff1e">
+            <name>Раздел2_3_3_2</name>
+            <description>Раздел2 3.3.2</description>
+            <code xsi:type="core:StringValue">
+              <value>2_3_3_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="01a8807d-5530-4ab4-b6b4-eae73f80391c">
+          <name>Раздел2_3_4</name>
+          <description>Раздел2 3.4</description>
+          <code xsi:type="core:StringValue">
+            <value>2_3_4</value>
+          </code>
+        </content>
+      </content>
+    </items>
+    <items id="a973560c-ba9a-4cbb-8f76-2c84f6a1ca9d">
+      <name>Раздел3</name>
+      <description>Раздел 3</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел3</value>
+      </code>
+      <content id="7762019f-9442-4f11-ac4b-05c1febdf185">
+        <name>Раздел3_10</name>
+        <description>Раздел3 10</description>
+        <code xsi:type="core:StringValue">
+          <value>3_10</value>
+        </code>
+        <content id="e5440077-61a3-4e62-82ba-1d9e313d18a2">
+          <name>Раздел3_10_1</name>
+          <description>Раздел3 10.1</description>
+          <code xsi:type="core:StringValue">
+            <value>3_10_1</value>
+          </code>
+        </content>
+        <content id="6b47dc1b-a5a2-4706-8573-e945a7087280">
+          <name>Раздел3_10_2</name>
+          <description>Раздел3 10.2</description>
+          <code xsi:type="core:StringValue">
+            <value>3_10_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="f4f00fd2-491b-4a16-932a-8251625693a8">
+        <name>Раздел3_4</name>
+        <description>Раздел3 4</description>
+        <code xsi:type="core:StringValue">
+          <value>3_4</value>
+        </code>
+        <content id="dea2024b-5fa6-4b59-b96d-067eced56e26">
+          <name>Раздел3_4_1</name>
+          <description>Раздел3 4.1</description>
+          <code xsi:type="core:StringValue">
+            <value>3_4_1</value>
+          </code>
+          <content id="5c2668ac-095e-45aa-aebb-949dfdbff869">
+            <name>Раздел3_4_1_1</name>
+            <description>Раздел3 4.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>3_4_1_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="02b066da-9f85-4a78-8a72-f15d6a19a9b0">
+          <name>Раздел3_4_2</name>
+          <description>Раздел3 4.2</description>
+          <code xsi:type="core:StringValue">
+            <value>3_4_2</value>
+          </code>
+        </content>
+        <content id="3ce37c0b-f896-495b-9af3-e2a243dafebc">
+          <name>Раздел3_4_3</name>
+          <description>Раздел3 4.3</description>
+          <code xsi:type="core:StringValue">
+            <value>3_4_3</value>
+          </code>
+        </content>
+        <content id="c4f622fa-69e4-4edc-a865-00f6f75e900e">
+          <name>Раздел3_4_4</name>
+          <description>Раздел3 4.4</description>
+          <code xsi:type="core:StringValue">
+            <value>3_4_4</value>
+          </code>
+        </content>
+        <content id="371e3ee8-d54a-411d-b30a-2e505af81cde">
+          <name>Раздел3_4_5</name>
+          <description>Раздел3 4.5</description>
+          <code xsi:type="core:StringValue">
+            <value>3_4_5</value>
+          </code>
+        </content>
+      </content>
+      <content id="daf0a19a-2ec0-4a19-be17-4964653f92d2">
+        <name>Раздел3_5</name>
+        <description>Раздел3 5</description>
+        <code xsi:type="core:StringValue">
+          <value>3_5</value>
+        </code>
+        <content id="030f64c3-6a48-4601-ac1d-60b130fb1a45">
+          <name>Раздел3_5_1</name>
+          <description>Раздел3 5.1</description>
+          <code xsi:type="core:StringValue">
+            <value>3_5_1</value>
+          </code>
+        </content>
+        <content id="5e33670a-c0af-44c7-ad52-6015564f7317">
+          <name>Раздел3_5_2</name>
+          <description>Раздел3 5.2</description>
+          <code xsi:type="core:StringValue">
+            <value>3_5_2</value>
+          </code>
+        </content>
+        <content id="4cb875f4-3fa5-4e96-a608-03fc41654eae">
+          <name>Раздел3_5_3</name>
+          <description>Раздел3 5.3</description>
+          <code xsi:type="core:StringValue">
+            <value>3_5_3</value>
+          </code>
+          <content id="0fa61621-30d7-4647-b7f3-e7b83076a568">
+            <name>Раздел3_5_3_1</name>
+            <description>Раздел3 5.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>3_5_3_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="440f5519-27f2-4df1-b256-ec58231e0a2e">
+          <name>Раздел3_5_4</name>
+          <description>Раздел3 5.4</description>
+          <code xsi:type="core:StringValue">
+            <value>3_5_4</value>
+          </code>
+        </content>
+        <content id="aaa6763f-5942-47cc-8bee-d0a4501ac326">
+          <name>Раздел3_5_5</name>
+          <description>Раздел3 5.5</description>
+          <code xsi:type="core:StringValue">
+            <value>3_5_5</value>
+          </code>
+        </content>
+        <content id="02e6b290-435a-4991-a662-8a3d52a463cd">
+          <name>Раздел3_5_6</name>
+          <description>Раздел3 5.6</description>
+          <code xsi:type="core:StringValue">
+            <value>3_5_6</value>
+          </code>
+        </content>
+      </content>
+      <content id="9305f8b0-7cc2-45ce-837c-e0dcb18abfd2">
+        <name>Раздел3_6</name>
+        <description>Раздел3 6</description>
+        <code xsi:type="core:StringValue">
+          <value>3_6</value>
+        </code>
+      </content>
+      <content id="b1c5bcb2-79ff-4655-9c5f-316f53a2c0e7">
+        <name>Раздел3_7</name>
+        <description>Раздел3 7</description>
+        <code xsi:type="core:StringValue">
+          <value>3_7</value>
+        </code>
+      </content>
+      <content id="2e695d9c-aae7-40ed-bae1-d85dd3605e79">
+        <name>Раздел3_8</name>
+        <description>Раздел3 8</description>
+        <code xsi:type="core:StringValue">
+          <value>3_8</value>
+        </code>
+      </content>
+      <content id="c7d4ce1c-3090-4ccd-9058-09a7d6735966">
+        <name>Раздел3_9</name>
+        <description>Раздел3 9</description>
+        <code xsi:type="core:StringValue">
+          <value>3_9</value>
+        </code>
+        <content id="d5760259-6b7c-468b-b19e-667004ce5f70">
+          <name>Раздел3_9_1</name>
+          <description>Раздел3 9.1</description>
+          <code xsi:type="core:StringValue">
+            <value>3_9_1</value>
+          </code>
+          <content id="1fb873ca-d234-453e-bb13-7543702b5fa1">
+            <name>Раздел3_9_1_1</name>
+            <description>Раздел3 9.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>3_9_1_1</value>
+            </code>
+          </content>
+          <content id="309b4d7f-eb45-46f4-bc34-cb512285d5b2">
+            <name>Раздел3_9_1_2</name>
+            <description>Раздел3 9.1.2</description>
+            <code xsi:type="core:StringValue">
+              <value>3_9_1_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="33daf7ea-17e2-4a70-abf0-0b5e3e6cf4c1">
+          <name>Раздел3_9_2</name>
+          <description>Раздел3 9.2</description>
+          <code xsi:type="core:StringValue">
+            <value>3_9_2</value>
+          </code>
+        </content>
+      </content>
+    </items>
+    <items id="606e110f-21e8-4cac-943a-0e3eea7b4ea5">
+      <name>Раздел4</name>
+      <description>Раздел 4</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел4</value>
+      </code>
+      <content id="4dc9c4c7-4ccc-4b7e-9f23-f868ccc65108">
+        <name>Раздел4_11</name>
+        <description>Раздел4 11</description>
+        <code xsi:type="core:StringValue">
+          <value>4_11</value>
+        </code>
+        <content id="0949b594-cee7-42e2-ac01-a2c22d07421a">
+          <name>Раздел4_11_1</name>
+          <description>Раздел4 11.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_11_1</value>
+          </code>
+        </content>
+        <content id="d502e33c-db70-4d80-9d26-8241a5c85630">
+          <name>Раздел4_11_2</name>
+          <description>Раздел4 11.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_11_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="8e5df249-a763-4ef9-a604-97a0cf016074">
+        <name>Раздел4_12</name>
+        <description>Раздел4 12</description>
+        <code xsi:type="core:StringValue">
+          <value>4_12</value>
+        </code>
+        <content id="137b5afd-8136-45dd-b28b-07598f793af0">
+          <name>Раздел4_12_1</name>
+          <description>Раздел4 12.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_12_1</value>
+          </code>
+        </content>
+        <content id="58b2f179-103c-4e5e-b972-eafa98a75dd8">
+          <name>Раздел4_12_2</name>
+          <description>Раздел4 12.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_12_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="8fccb366-3045-4c5a-bb5c-49c715360749">
+        <name>Раздел4_13</name>
+        <description>Раздел4 13</description>
+        <code xsi:type="core:StringValue">
+          <value>4_13</value>
+        </code>
+        <content id="8ce8a5ef-0a4a-4211-93ed-090918a260cf">
+          <name>Раздел4_13_1</name>
+          <description>Раздел4 13.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_13_1</value>
+          </code>
+        </content>
+        <content id="6805f871-42de-4210-abd9-ea0dc2bc6def">
+          <name>Раздел4_13_2</name>
+          <description>Раздел4 13.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_13_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="329a71bf-cd15-4342-b1ac-89b5bedbd071">
+        <name>Раздел4_14</name>
+        <description>Раздел4 14</description>
+        <code xsi:type="core:StringValue">
+          <value>4_14</value>
+        </code>
+        <content id="e6ba533a-d885-4a48-8f7f-890f946d0e43">
+          <name>Раздел4_14_1</name>
+          <description>Раздел4 14.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_14_1</value>
+          </code>
+        </content>
+        <content id="8433437f-72b1-4f7f-bd4a-e460d086ac60">
+          <name>Раздел4_14_2</name>
+          <description>Раздел4 14.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_14_2</value>
+          </code>
+        </content>
+        <content id="8659c366-73a8-4255-9fa9-61bf097b0245">
+          <name>Раздел4_14_3</name>
+          <description>Раздел4 14.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_14_3</value>
+          </code>
+          <content id="87bfe6d4-68d5-4a1d-8256-6c21f178834c">
+            <name>Раздел4_14_3_1</name>
+            <description>Раздел4 14.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_14_3_1</value>
+            </code>
+          </content>
+          <content id="7db9be13-e6e9-420e-8860-21484a048476">
+            <name>Раздел4_14_3_2</name>
+            <description>Раздел4 14.3.2</description>
+            <code xsi:type="core:StringValue">
+              <value>4_14_3_2</value>
+            </code>
+          </content>
+        </content>
+      </content>
+      <content id="0549baf0-7dc7-4d7f-b9ef-d111a14ef7f9">
+        <name>Раздел4_15</name>
+        <description>Раздел4 15</description>
+        <code xsi:type="core:StringValue">
+          <value>4_15</value>
+        </code>
+        <content id="c11a59e3-2e54-4834-8e37-34c9822e5eee">
+          <name>Раздел4_15_1</name>
+          <description>Раздел4 15.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_15_1</value>
+          </code>
+        </content>
+        <content id="2b069580-21c1-41ed-a533-5a5beb1b9a97">
+          <name>Раздел4_15_2</name>
+          <description>Раздел4 15.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_15_2</value>
+          </code>
+        </content>
+        <content id="b32ab59d-a105-4cc4-8293-e0063da0e9c7">
+          <name>Раздел4_15_3</name>
+          <description>Раздел4 15.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_15_3</value>
+          </code>
+        </content>
+      </content>
+      <content id="ec3726fd-f7f0-4590-ba51-e926a57242eb">
+        <name>Раздел4_16</name>
+        <description>Раздел4 16</description>
+        <code xsi:type="core:StringValue">
+          <value>4_16</value>
+        </code>
+      </content>
+      <content id="38d86ace-f7eb-4a3c-8bf2-ebeda9700908">
+        <name>Раздел4_17</name>
+        <description>Раздел4 17</description>
+        <code xsi:type="core:StringValue">
+          <value>4_17</value>
+        </code>
+        <content id="a0887171-3bdf-41e2-8b77-129ecc7c140d">
+          <name>Раздел4_17_1</name>
+          <description>Раздел4 17.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_17_1</value>
+          </code>
+        </content>
+        <content id="cb334140-f07f-4c69-926a-5d490f66a075">
+          <name>Раздел4_17_2</name>
+          <description>Раздел4 17.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_17_2</value>
+          </code>
+        </content>
+        <content id="f2b8af4f-ff03-4ef2-b631-f5f98353aa8e">
+          <name>Раздел4_17_3</name>
+          <description>Раздел4 17.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_17_3</value>
+          </code>
+        </content>
+        <content id="c77e23f0-77c7-4000-8ddf-a52b40c6edea">
+          <name>Раздел4_17_4</name>
+          <description>Раздел4 17.4</description>
+          <code xsi:type="core:StringValue">
+            <value>4_17_4</value>
+          </code>
+        </content>
+        <content id="f0aa2a11-ba03-4385-a98b-8034f9ea491c">
+          <name>Раздел4_17_5</name>
+          <description>Раздел4 17.5</description>
+          <code xsi:type="core:StringValue">
+            <value>4_17_5</value>
+          </code>
+        </content>
+      </content>
+      <content id="a15328db-041d-42a0-8df6-925d04d30b6c">
+        <name>Раздел4_18</name>
+        <description>Раздел4 18</description>
+        <code xsi:type="core:StringValue">
+          <value>4_18</value>
+        </code>
+        <content id="9ff159c0-5b2a-4fe1-835c-257d07649fb9">
+          <name>Раздел4_18_1</name>
+          <description>Раздел4 18.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_18_1</value>
+          </code>
+          <content id="f326e30d-6749-4a6e-963c-fe4764a7b472">
+            <name>Раздел4_18_1_1</name>
+            <description>Раздел4 18.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_18_1_1</value>
+            </code>
+          </content>
+          <content id="8fd9324a-e1c7-4b1b-b61f-3526f1debdc1">
+            <name>Раздел4_18_1_2</name>
+            <description>Раздел4 18.1.2</description>
+            <code xsi:type="core:StringValue">
+              <value>4_18_1_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="0d83a062-d95b-453a-bc91-298e0541e36a">
+          <name>Раздел4_18_2</name>
+          <description>Раздел4 18.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_18_2</value>
+          </code>
+          <content id="0a26ab76-37c2-4016-a7a7-b0590fa13ac4">
+            <name>Раздел4_18_2_1</name>
+            <description>Раздел4 18.2.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_18_2_1</value>
+            </code>
+          </content>
+          <content id="94605440-5301-4f48-b0a5-82f56f362891">
+            <name>Раздел4_18_2_2</name>
+            <description>Раздел4 18.2.2</description>
+            <code xsi:type="core:StringValue">
+              <value>4_18_2_2</value>
+            </code>
+          </content>
+        </content>
+      </content>
+      <content id="fb620870-8b8a-4f7e-babc-cef2b295bf3c">
+        <name>Раздел4_19</name>
+        <description>Раздел4 19</description>
+        <code xsi:type="core:StringValue">
+          <value>4_19</value>
+        </code>
+        <content id="85144d8a-124d-4649-a9d3-c5043c66168b">
+          <name>Раздел4_19_1</name>
+          <description>Раздел4 19.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_19_1</value>
+          </code>
+          <content id="f9f641f7-667f-4bfc-b81e-4facec8cfc72">
+            <name>Раздел4_19_1_1</name>
+            <description>Раздел4 19.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_19_1_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="3f09b109-5934-4f9a-9786-71339d667294">
+          <name>Раздел4_19_2</name>
+          <description>Раздел4 19.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_19_2</value>
+          </code>
+          <content id="a504ae1e-f18c-414d-ad56-794cb7769d74">
+            <name>Раздел4_19_2_1</name>
+            <description>Раздел4 19.2.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_19_2_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="888aded1-75bb-4f86-a4bb-cb1dae0c3e36">
+          <name>Раздел4_19_3</name>
+          <description>Раздел4 19.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_19_3</value>
+          </code>
+          <content id="e88919dc-f9d2-472c-a50f-19af796087a5">
+            <name>Раздел4_19_3_1</name>
+            <description>Раздел4 19.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_19_3_1</value>
+            </code>
+            <content id="6117d6e1-07b2-414e-b77a-f80c714648ef">
+              <name>Раздел4_19_3_1_1</name>
+              <description>Раздел4 19.3.1.1</description>
+              <code xsi:type="core:StringValue">
+                <value>4_19_3_1_1</value>
+              </code>
+            </content>
+          </content>
+          <content id="e409b421-e329-445f-aa24-3ce024f334c2">
+            <name>Раздел4_19_3_2</name>
+            <description>Раздел4 19.3.2</description>
+            <code xsi:type="core:StringValue">
+              <value>4_19_3_2</value>
+            </code>
+            <content id="53269459-9594-47a8-bbfc-9831663a35f4">
+              <name>Раздел4_19_3_2_1</name>
+              <description>Раздел4 19.3.2.1</description>
+              <code xsi:type="core:StringValue">
+                <value>4_19_3_2_1</value>
+              </code>
+            </content>
+          </content>
+          <content id="bcdf5807-5de6-4fa2-8dc1-a0bea2316231">
+            <name>Раздел4_19_3_3</name>
+            <description>Раздел4 19.3.3</description>
+            <code xsi:type="core:StringValue">
+              <value>4_19_3_3</value>
+            </code>
+            <content id="cdd2f2b7-dd41-4ae4-9d37-4a07a1b81291">
+              <name>Раздел4_19_3_3_1</name>
+              <description>Раздел4 19.3.3.1</description>
+              <code xsi:type="core:StringValue">
+                <value>4_19_3_3_1</value>
+              </code>
+            </content>
+          </content>
+        </content>
+      </content>
+      <content id="26e41466-4229-4c8f-9577-66b606872eb2">
+        <name>Раздел4_20</name>
+        <description>Раздел4 20</description>
+        <code xsi:type="core:StringValue">
+          <value>4_20</value>
+        </code>
+      </content>
+      <content id="f0bc36ad-f2ca-4acd-8688-940bb13ee691">
+        <name>Раздел4_21</name>
+        <description>Раздел4 21</description>
+        <code xsi:type="core:StringValue">
+          <value>4_21</value>
+        </code>
+      </content>
+      <content id="1c4455d0-7460-4ca8-89fe-1ad3bff24fbc">
+        <name>Раздел4_22</name>
+        <description>Раздел4 22</description>
+        <code xsi:type="core:StringValue">
+          <value>4_22</value>
+        </code>
+        <content id="ac2371ae-b896-4772-902f-ba05667c95b2">
+          <name>Раздел4_22_1</name>
+          <description>Раздел4.22.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_22_1</value>
+          </code>
+        </content>
+        <content id="4065e71f-698f-4270-aa89-2d9526b02533">
+          <name>Раздел4_22_2</name>
+          <description>Раздел4.22.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_22_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="e30f3d2b-1e7a-4689-9e6e-9216bde36b4f">
+        <name>Раздел4_23</name>
+        <description>Раздел4 23</description>
+        <code xsi:type="core:StringValue">
+          <value>4_23</value>
+        </code>
+        <content id="e4faa421-978d-47ca-bc3e-189d13457b5d">
+          <name>Раздел4_23_1</name>
+          <description>Раздел4 23.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_23_1</value>
+          </code>
+          <content id="b34c96af-b008-4d6e-8279-313c5e84b225">
+            <name>Раздел4_23_1_1</name>
+            <description>Раздел4 23.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_23_1_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="5847d1c6-2129-4ed3-bb30-ed75f50c9e27">
+          <name>Раздел4_23_2</name>
+          <description>Раздел4 23.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_23_2</value>
+          </code>
+          <content id="9fd484cf-d111-46ca-8b7d-a25cfcbdf02b">
+            <name>Раздел4_23_2_1</name>
+            <description>Раздел4 23.2.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_23_2_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="dcb58451-a3df-4c63-9498-52526160eeba">
+          <name>Раздел4_23_3</name>
+          <description>Раздел4 23.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_23_3</value>
+          </code>
+          <content id="887a02d1-4d7d-43a6-bdf5-e915aa80518c">
+            <name>Раздел4_23_3_1</name>
+            <description>Раздел4 23.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_23_3_1</value>
+            </code>
+            <content id="8c49b526-e44c-4082-bcca-cb22b0d716b3">
+              <name>Раздел4_23_3_1_1</name>
+              <description>Раздел4 23.3.1.1</description>
+              <code xsi:type="core:StringValue">
+                <value>4_23_3_1_1</value>
+              </code>
+            </content>
+          </content>
+          <content id="c7d01070-14ba-4826-87d5-a7a5d42fcee0">
+            <name>Раздел4_23_3_2</name>
+            <description>Раздел4 23.3.2</description>
+            <code xsi:type="core:StringValue">
+              <value>4_23_3_2</value>
+            </code>
+            <content id="769218c4-fa9d-4533-801c-26545d06e088">
+              <name>Раздел4_23_3_2_1</name>
+              <description>Раздел4 23.3.2.1</description>
+              <code xsi:type="core:StringValue">
+                <value>4_23_3_2_1</value>
+              </code>
+            </content>
+          </content>
+          <content id="de90e7e3-b0c3-4aca-9847-cae371010b04">
+            <name>Раздел4_23_3_3</name>
+            <description>Раздел4 23.3.3</description>
+            <code xsi:type="core:StringValue">
+              <value>4_23_3_3</value>
+            </code>
+            <content id="effce491-4f0d-4de4-8421-7f017202b0d0">
+              <name>Раздел4_23_3_3_1</name>
+              <description>Раздел4 23.3.3.1</description>
+              <code xsi:type="core:StringValue">
+                <value>4_23_3_3_1</value>
+              </code>
+            </content>
+          </content>
+        </content>
+      </content>
+      <content id="35a21770-041e-4670-ae2d-96fc56ee0169">
+        <name>Раздел4_24</name>
+        <description>Раздел4 24</description>
+        <code xsi:type="core:StringValue">
+          <value>4_24</value>
+        </code>
+        <content id="2509b073-79d6-46fc-b2ac-f3c4b0233127">
+          <name>Раздел4_24_1</name>
+          <description>Раздел4 24.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_24_1</value>
+          </code>
+        </content>
+        <content id="ea81114e-fd4c-4bc7-9e09-23ae8569fefb">
+          <name>Раздел4_24_2</name>
+          <description>Раздел4 24.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_24_2</value>
+          </code>
+        </content>
+        <content id="9ddba6eb-e4d5-456a-aaef-c5e2f0b915fa">
+          <name>Раздел4_24_3</name>
+          <description>Раздел4 24.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_24_3</value>
+          </code>
+        </content>
+      </content>
+      <content id="ef85eeef-ae7e-4d56-9e80-862a6efd79bc">
+        <name>Раздел4_25</name>
+        <description>Раздел4 25</description>
+        <code xsi:type="core:StringValue">
+          <value>4_25</value>
+        </code>
+        <content id="adcc7660-1775-45d8-b5fe-b55c3be071c8">
+          <name>Раздел4_25_1</name>
+          <description>Раздел4 25.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_25_1</value>
+          </code>
+          <content id="f0a1dd7b-868e-4edc-b0a2-f6fd49fae36c">
+            <name>Раздел4_25_1_1</name>
+            <description>Раздел4 25.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_25_1_1</value>
+            </code>
+          </content>
+        </content>
+        <content id="6f50c7ef-2bd9-49a7-b3a5-c1133b8de0b1">
+          <name>Раздел4_25_2</name>
+          <description>Раздел4 25.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_25_2</value>
+          </code>
+          <content id="6b6e9144-3532-4167-b797-d2bcfcd0a6b5">
+            <name>Раздел4_25_2_1</name>
+            <description>Раздел4 25.2.1</description>
+            <code xsi:type="core:StringValue">
+              <value>4_25_2_1</value>
+            </code>
+          </content>
+        </content>
+      </content>
+      <content id="78432e59-5ade-432c-b25a-0db1570cdd2d">
+        <name>Раздел4_26</name>
+        <description>Раздел4 26</description>
+        <code xsi:type="core:StringValue">
+          <value>4_26</value>
+        </code>
+      </content>
+      <content id="5d52d03b-86aa-41d7-9f49-e64f17e298f3">
+        <name>Раздел4_27</name>
+        <description>Раздел4 27</description>
+        <code xsi:type="core:StringValue">
+          <value>4_27</value>
+        </code>
+      </content>
+      <content id="42adf577-e113-4617-98f4-3a0a8edc6b4f">
+        <name>Раздел4_28</name>
+        <description>Раздел4 28</description>
+        <code xsi:type="core:StringValue">
+          <value>4_28</value>
+        </code>
+      </content>
+      <content id="79d41de0-c6a7-4c92-8764-07a9192c383d">
+        <name>Раздел4_29</name>
+        <description>Раздел4 29</description>
+        <code xsi:type="core:StringValue">
+          <value>4_29</value>
+        </code>
+        <content id="9cb48dc7-70e3-4297-a2ca-b084cd6f56cb">
+          <name>Раздел4_29_1</name>
+          <description>Раздел4 29.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_29_1</value>
+          </code>
+        </content>
+        <content id="b0f271f5-6745-4002-8f33-143608825102">
+          <name>Раздел4_29_2</name>
+          <description>Раздел4 29.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_29_2</value>
+          </code>
+        </content>
+        <content id="3ace881d-235e-4450-b4fc-8fbc1b5c6577">
+          <name>Раздел4_29_3</name>
+          <description>Раздел4 29.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_29_3</value>
+          </code>
+        </content>
+      </content>
+      <content id="84e43941-d621-4e0a-b44b-f16aaeb4b79a">
+        <name>Раздел4_30</name>
+        <description>Раздел4 30</description>
+        <code xsi:type="core:StringValue">
+          <value>4_30</value>
+        </code>
+        <content id="a2051a7c-f811-4cab-8ddb-c99528dd5a14">
+          <name>Раздел4_30_1</name>
+          <description>Раздел4 30.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_30_1</value>
+          </code>
+        </content>
+        <content id="f734c593-5e48-4536-80b4-1e8fa2030b63">
+          <name>Раздел4_30_2</name>
+          <description>Раздел4 30.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_30_2</value>
+          </code>
+        </content>
+        <content id="3f73ac18-66eb-41a9-b30b-6f297f52d6aa">
+          <name>Раздел4_30_3</name>
+          <description>Раздел4 30.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_30_3</value>
+          </code>
+        </content>
+      </content>
+      <content id="7a751148-5abf-4856-88d5-6da5f043d57f">
+        <name>Раздел4_31</name>
+        <description>Раздел4 31</description>
+        <code xsi:type="core:StringValue">
+          <value>4_31</value>
+        </code>
+        <content id="b540fe94-5fac-465f-90c3-a5cdbffb08b4">
+          <name>Раздел4_31_1</name>
+          <description>Раздел4 31.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_31_1</value>
+          </code>
+        </content>
+        <content id="e3cb7c97-0931-4d4c-8220-38a5e97cd803">
+          <name>Раздел4_31_2</name>
+          <description>Раздел4 31.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_31_2</value>
+          </code>
+        </content>
+        <content id="ce8df75c-274f-441a-a37d-efde3733f6b6">
+          <name>Раздел4_31_3</name>
+          <description>Раздел4 31.3</description>
+          <code xsi:type="core:StringValue">
+            <value>4_31_3</value>
+          </code>
+        </content>
+      </content>
+      <content id="57494aab-abb0-49bb-8b5e-c731964a5f6b">
+        <name>Раздел4_32</name>
+        <description>Раздел4 32</description>
+        <code xsi:type="core:StringValue">
+          <value>4_32</value>
+        </code>
+        <content id="03f02c4d-12cd-440d-be10-c278bc8aa69e">
+          <name>Раздел4_32_1</name>
+          <description>Раздел4 32.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_32_1</value>
+          </code>
+        </content>
+        <content id="0b06c028-2375-4493-b307-2de89dec0147">
+          <name>Раздел4_32_2</name>
+          <description>Раздел4 32.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_32_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="bc3733d3-5a84-48cf-95fe-be14f882dca6">
+        <name>Раздел4_33</name>
+        <description>Раздел4 33</description>
+        <code xsi:type="core:StringValue">
+          <value>4_33</value>
+        </code>
+      </content>
+      <content id="51135ba4-f72e-4f75-8273-3015f826afe6">
+        <name>Раздел4_34</name>
+        <description>Раздел4 34</description>
+        <code xsi:type="core:StringValue">
+          <value>4_34</value>
+        </code>
+      </content>
+      <content id="2a1db55e-10e9-4e3b-a6fb-0574405528c9">
+        <name>Раздел4_35</name>
+        <description>Раздел4 35</description>
+        <code xsi:type="core:StringValue">
+          <value>4_35</value>
+        </code>
+        <content id="298da55b-e6ed-49c9-b225-9f2d89cc1eb2">
+          <name>Раздел4_35_1</name>
+          <description>Раздел4 35.1</description>
+          <code xsi:type="core:StringValue">
+            <value>4_35_1</value>
+          </code>
+        </content>
+        <content id="64ea34a7-a396-4585-a901-26d9f6e2fbcd">
+          <name>Раздел4_35_2</name>
+          <description>Раздел4 35.2</description>
+          <code xsi:type="core:StringValue">
+            <value>4_35_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="c981ff8e-c131-4a38-b571-5fef8bc111fe">
+        <name>Раздел4_36</name>
+        <description>Раздел4 36</description>
+        <code xsi:type="core:StringValue">
+          <value>4_36</value>
+        </code>
+      </content>
+      <content id="c9ad9d5d-f1c1-4814-883f-14dc1013a7da">
+        <name>Раздел4_37</name>
+        <description>Раздел4 37</description>
+        <code xsi:type="core:StringValue">
+          <value>4_37</value>
+        </code>
+      </content>
+      <content id="f95d6910-50d5-4994-82bd-a7317ba8ad3d">
+        <name>Раздел4_38</name>
+        <description>Раздел4 38</description>
+        <code xsi:type="core:StringValue">
+          <value>4_38</value>
+        </code>
+      </content>
+      <content id="8c20308b-084f-48a7-b626-7460c0fb44f6">
+        <name>Раздел4_39</name>
+        <description>Раздел4 39</description>
+        <code xsi:type="core:StringValue">
+          <value>4_39</value>
+        </code>
+      </content>
+    </items>
+    <items id="e6dab0a9-88ab-4401-a182-2c57b2de11a3">
+      <name>Раздел5</name>
+      <description>Раздел 5</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел5</value>
+      </code>
+      <content id="1d8c4975-f086-49b3-bba2-517c148991b0">
+        <name>Раздел5_1</name>
+        <description>Раздел5 1</description>
+        <code xsi:type="core:StringValue">
+          <value>5_1</value>
+        </code>
+        <content id="9c086fc9-3f50-4414-923c-11e73d274ce8">
+          <name>Раздел5_1_1</name>
+          <description>Раздел5 1.1</description>
+          <code xsi:type="core:StringValue">
+            <value>5_1_1</value>
+          </code>
+        </content>
+        <content id="b74ffb97-04f3-4ef3-8223-3ba2b80a8307">
+          <name>Раздел5_1_2</name>
+          <description>Раздел5 1.2</description>
+          <code xsi:type="core:StringValue">
+            <value>5_1_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="d4616769-e9b5-4e54-8924-be86a7b618c5">
+        <name>Раздел5_2</name>
+        <description>Раздел5 2</description>
+        <code xsi:type="core:StringValue">
+          <value>5_2</value>
+        </code>
+      </content>
+      <content id="1c253664-f246-49da-8ead-fdd74bf279be">
+        <name>Раздел5_3</name>
+        <description>Раздел5 3</description>
+        <code xsi:type="core:StringValue">
+          <value>5_3</value>
+        </code>
+      </content>
+    </items>
+    <items id="0989f585-ed10-4d4d-bf15-fb2cd9db7524">
+      <name>Раздел6</name>
+      <description>Раздел 6</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел6</value>
+      </code>
+      <content id="403f14e0-1f32-4e4a-af6b-b298b3e67d48">
+        <name>Раздел6_1</name>
+        <description>Раздел6 1</description>
+        <code xsi:type="core:StringValue">
+          <value>6_1</value>
+        </code>
+      </content>
+      <content id="a8d68ff2-3805-48ce-a821-73bc1d25f497">
+        <name>Раздел6_2</name>
+        <description>Раздел6 2</description>
+        <code xsi:type="core:StringValue">
+          <value>6_2</value>
+        </code>
+        <content id="f8be9124-d132-4470-87bf-375daac717c1">
+          <name>Раздел6_2_1</name>
+          <description>Раздел6 2.1</description>
+          <code xsi:type="core:StringValue">
+            <value>6_2_1</value>
+          </code>
+        </content>
+        <content id="671dbf44-381e-4b74-a015-a1b2d6c15993">
+          <name>Раздел6_2_2</name>
+          <description>Раздел6 2.2</description>
+          <code xsi:type="core:StringValue">
+            <value>6_2_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="eee7065d-fd40-4a0c-a31c-ddc5fe96d4bf">
+        <name>Раздел6_3</name>
+        <description>Раздел6 3</description>
+        <code xsi:type="core:StringValue">
+          <value>6_3</value>
+        </code>
+        <content id="f3b9afdc-c0a9-49d5-9794-e16ea76e7d8e">
+          <name>Раздел6_3_1</name>
+          <description>Раздел6 3.1</description>
+          <code xsi:type="core:StringValue">
+            <value>6_3_1</value>
+          </code>
+          <content id="ebdb892f-0bc0-4dc7-966b-52794e784d0a">
+            <name>Раздел6_3_1_1</name>
+            <description>Раздел6 3.1.1</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_1_1</value>
+            </code>
+          </content>
+          <content id="6162e929-b088-4508-b9a0-60c37bbcf159">
+            <name>Раздел6_3_1_2</name>
+            <description>Раздел6 3.1.2</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_1_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="7b587318-ce5d-4ba9-9710-0d256481c420">
+          <name>Раздел6_3_2</name>
+          <description>Раздел6 3.2</description>
+          <code xsi:type="core:StringValue">
+            <value>6_3_2</value>
+          </code>
+          <content id="a39fefbb-80f5-4ccb-bda6-fec6dab23f56">
+            <name>Раздел6_3_2_1</name>
+            <description>Раздел6 3.2.1</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_2_1</value>
+            </code>
+          </content>
+          <content id="5f946e5c-fae1-4fdb-957d-371b7aaff1d7">
+            <name>Раздел6_3_2_2</name>
+            <description>Раздел6 3.2.2</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_2_2</value>
+            </code>
+          </content>
+        </content>
+        <content id="b4851f61-ecc2-4cb5-999b-0a1a7dc42a75">
+          <name>Раздел6_3_3</name>
+          <description>Раздел6 3.3</description>
+          <code xsi:type="core:StringValue">
+            <value>6_3_3</value>
+          </code>
+          <content id="5e19582e-b448-429a-b287-a57dde4d501a">
+            <name>Раздел6_3_3_1</name>
+            <description>Раздел6 3.3.1</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_3_1</value>
+            </code>
+          </content>
+          <content id="d3ec3724-8673-4b91-9b49-20f4aff52316">
+            <name>Раздел6_3_3_2</name>
+            <description>Раздел6 3.3.2</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_3_2</value>
+            </code>
+          </content>
+          <content id="b171bfe7-c2f4-4e47-8885-af98487c3fbb">
+            <name>Раздел6_3_3_3</name>
+            <description>Раздел6 3.3.3</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_3_3</value>
+            </code>
+          </content>
+        </content>
+        <content id="05e7663d-86b6-4b60-ad96-4a38ca84b807">
+          <name>Раздел6_3_4</name>
+          <description>Раздел6 3.4</description>
+          <code xsi:type="core:StringValue">
+            <value>6_3_4</value>
+          </code>
+          <content id="b461ac72-c8eb-4296-ae61-a7fa12f73859">
+            <name>Раздел6_3_4_1</name>
+            <description>Раздел6 3.4.1</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_4_1</value>
+            </code>
+          </content>
+          <content id="ea86e175-2378-401f-a06c-eda6162368f5">
+            <name>Раздел6_3_4_2</name>
+            <description>Раздел6 3.4.2</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_4_2</value>
+            </code>
+          </content>
+          <content id="5a774d08-f5fa-4432-a27f-760d1d8d88ed">
+            <name>Раздел6_3_4_3</name>
+            <description>Раздел6 3.4.3</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_4_3</value>
+            </code>
+          </content>
+          <content id="2376fea7-4b9e-4bbc-af87-02bddfa1d8d1">
+            <name>Раздел6_3_4_4</name>
+            <description>Раздел6 3.4.4</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_4_4</value>
+            </code>
+          </content>
+        </content>
+        <content id="9392c13f-e36b-4c4d-b3c2-5c0f606b832e">
+          <name>Раздел6_3_5</name>
+          <description>Раздел6 3.5</description>
+          <code xsi:type="core:StringValue">
+            <value>6_3_5</value>
+          </code>
+          <content id="6e549b2c-e5ce-4c57-bfe3-c4c41ae55d4b">
+            <name>Раздел6_3_5_1</name>
+            <description>Раздел6 3.5.1</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_5_1</value>
+            </code>
+          </content>
+          <content id="65761ac5-5c8a-4680-bf91-e91f50ec08ac">
+            <name>Раздел6_3_5_2</name>
+            <description>Раздел6 3.5.2</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_5_2</value>
+            </code>
+          </content>
+          <content id="17be8c52-fa66-46b0-a1ce-c77c082f8d0f">
+            <name>Раздел6_3_5_3</name>
+            <description>Раздел6 3.5.3</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_5_3</value>
+            </code>
+          </content>
+          <content id="2867961a-5f65-469f-be04-10a2fc90517e">
+            <name>Раздел6_3_5_4</name>
+            <description>Раздел6 3.5.4</description>
+            <code xsi:type="core:StringValue">
+              <value>6_3_5_4</value>
+            </code>
+          </content>
+        </content>
+      </content>
+    </items>
+    <items id="35fdd24b-1f17-4687-ba32-1d752f7217ac">
+      <name>Раздел7</name>
+      <description>Раздел 7</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел7</value>
+      </code>
+      <content id="61d1879b-fe6a-4886-9a41-48b577e77b6c">
+        <name>Раздел7_1</name>
+        <description>Раздел7 1</description>
+        <code xsi:type="core:StringValue">
+          <value>7_1</value>
+        </code>
+        <content id="6e6d36ac-678d-485b-b2b0-f39107004a64">
+          <name>Раздел7_1_1</name>
+          <description>Раздел7 1.1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_1_1</value>
+          </code>
+        </content>
+        <content id="a8ff2671-428e-48fd-8836-cba570b8f138">
+          <name>Раздел7_1_2</name>
+          <description>Раздел7 1.2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_1_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="c499132c-6cdf-4013-ad45-a61d52462afb">
+        <name>Раздел7_2</name>
+        <description>Раздел7 2</description>
+        <code xsi:type="core:StringValue">
+          <value>7_2</value>
+        </code>
+        <content id="9dabd0d8-3277-4cc6-83d8-75aae7295473">
+          <name>Раздел7_2_1</name>
+          <description>Раздел7 2.1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_2_1</value>
+          </code>
+        </content>
+        <content id="9b840fa4-b962-4f76-999a-8816362dcb46">
+          <name>Раздел7_2_2</name>
+          <description>Раздел7 2.2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_2_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="a0af3ebb-4848-421a-a1d3-f480988cb765">
+        <name>Раздел7_3</name>
+        <description>Раздел7 3</description>
+        <code xsi:type="core:StringValue">
+          <value>7_3</value>
+        </code>
+        <content id="8acbda3a-1510-45dd-9e06-b6cae09dca8f">
+          <name>Раздел7_3_1</name>
+          <description>Раздел7 3.1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_3_1</value>
+          </code>
+        </content>
+        <content id="2ee978e6-e6ec-40d7-aa0d-5f50b7791fee">
+          <name>Раздел7_3_2</name>
+          <description>Раздел7 3.2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_3_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="56e2ecc2-dc4f-41d8-9060-c8e5b4562c97">
+        <name>Раздел7_4</name>
+        <description>Раздел7 4</description>
+        <code xsi:type="core:StringValue">
+          <value>7_4</value>
+        </code>
+        <content id="2e2579e7-fb53-4f0f-b381-84145a8ff7a4">
+          <name>Раздел7_4_1</name>
+          <description>Раздел7 4.1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_4_1</value>
+          </code>
+        </content>
+        <content id="89d1bcc2-7390-42df-8c33-5a99881c8ab5">
+          <name>Раздел7_4_2</name>
+          <description>Раздел7 4.2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_4_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="819b7df2-970c-473a-bb2b-b0011ca4cea2">
+        <name>Раздел7_5</name>
+        <description>Раздел7 5</description>
+        <code xsi:type="core:StringValue">
+          <value>7_5</value>
+        </code>
+        <content id="43b25256-79ff-4269-a9b7-6fb0de107ecf">
+          <name>Раздел7_5_1</name>
+          <description>Раздел7 5.1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_5_1</value>
+          </code>
+        </content>
+        <content id="f3fd94d7-3da7-4ad4-8d43-44089aa1d037">
+          <name>Раздел7_5_2</name>
+          <description>Раздел7 5.2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_5_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="06eab79d-8c6c-4f7e-9a32-9d4fbce7fd1e">
+        <name>Раздел7_6</name>
+        <description>Раздел7 6</description>
+        <code xsi:type="core:StringValue">
+          <value>7_6</value>
+        </code>
+        <content id="8aadab62-c208-4452-949c-a3297cdbfac8">
+          <name>Раздел7_6_1</name>
+          <description>Раздел7 6,1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_6_1</value>
+          </code>
+        </content>
+        <content id="1a15bb95-a228-4c51-8a99-23c18b617e54">
+          <name>Раздел7_6_2</name>
+          <description>Раздел7 6,2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_6_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="e957675e-1d5c-4196-aa20-fdba70385b80">
+        <name>Раздел7_7</name>
+        <description>Раздел7 7</description>
+        <code xsi:type="core:StringValue">
+          <value>7_7</value>
+        </code>
+        <content id="01104aea-227a-4c27-acb1-5820effc420e">
+          <name>Раздел7_7_1</name>
+          <description>Раздел7 7.1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_7_1</value>
+          </code>
+        </content>
+        <content id="a74174e5-c06f-4b1f-bc88-91c0e7c56e77">
+          <name>Раздел7_7_2</name>
+          <description>Раздел7 7.2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_7_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="7eac8915-5016-49a4-a92f-2253ba370f96">
+        <name>Раздел7_8</name>
+        <description>Раздел7 8</description>
+        <code xsi:type="core:StringValue">
+          <value>7_8</value>
+        </code>
+        <content id="f1e22106-ab1a-457d-bac8-983c93a4c65d">
+          <name>Раздел7_8_1</name>
+          <description>Раздел7 8,1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_8_1</value>
+          </code>
+        </content>
+        <content id="d4e62ff6-38dc-44ad-b167-8c210f3ada43">
+          <name>Раздел7_8_2</name>
+          <description>Раздел7 8,2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_8_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="e57e7ace-8b9b-4e22-99ec-05768ba7ed1f">
+        <name>Раздел7_9</name>
+        <description>Раздел7 9</description>
+        <code xsi:type="core:StringValue">
+          <value>7_9</value>
+        </code>
+        <content id="3c6bb428-9d1c-4e43-a9fb-06d3779c6e72">
+          <name>Раздел7_9_1</name>
+          <description>Раздел7 9.1</description>
+          <code xsi:type="core:StringValue">
+            <value>7_9_1</value>
+          </code>
+        </content>
+        <content id="759bb709-c23d-4e4e-8714-41434474c380">
+          <name>Раздел7_9_2</name>
+          <description>Раздел7 9.2</description>
+          <code xsi:type="core:StringValue">
+            <value>7_9_2</value>
+          </code>
+        </content>
+      </content>
+    </items>
+    <items id="05ae35b9-fc4d-44bd-9b8d-c49f2b62cb23">
+      <name>Раздел8</name>
+      <description>Раздел 8</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел8</value>
+      </code>
+      <content id="f9df86c5-0e17-4135-af05-1e6c210bb9a3">
+        <name>Раздел8_1</name>
+        <description>Раздел8 1</description>
+        <code xsi:type="core:StringValue">
+          <value>8_1</value>
+        </code>
+        <content id="752f76a7-a181-4734-bb79-8cf3af3babc1">
+          <name>Раздел8_1_1</name>
+          <description>Раздел8 1.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_1_1</value>
+          </code>
+        </content>
+        <content id="1c0b1628-8ca4-479a-9e77-a30c4fc752c5">
+          <name>Раздел8_1_2</name>
+          <description>Раздел8 1.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_1_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="2b508594-d6f6-4885-8f3d-73d6abfe4c7b">
+        <name>Раздел8_2</name>
+        <description>Раздел8 2</description>
+        <code xsi:type="core:StringValue">
+          <value>8_2</value>
+        </code>
+        <content id="4a757151-c2d2-4a24-8fb7-57d96bf3adbd">
+          <name>Раздел8_2_1</name>
+          <description>Раздел8 2.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_2_1</value>
+          </code>
+        </content>
+        <content id="fcb4875f-2e32-42f1-8c0f-33b291e2b349">
+          <name>Раздел8_2_2</name>
+          <description>Раздел8 2.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_2_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="cd480d65-3baf-4bc7-8592-fdfc0f0cd510">
+        <name>Раздел8_3</name>
+        <description>Раздел8 3</description>
+        <code xsi:type="core:StringValue">
+          <value>8_3</value>
+        </code>
+        <content id="64437cf7-1214-49df-b414-a2b27449b26d">
+          <name>Раздел8_3_1</name>
+          <description>Раздел8 3.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_3_1</value>
+          </code>
+        </content>
+        <content id="68deb9e4-5a66-422f-a032-9e367c405410">
+          <name>Раздел8_3_2</name>
+          <description>Раздел8 3.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_3_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="a5f75866-3116-454a-949c-4a2c8a2e8478">
+        <name>Раздел8_4</name>
+        <description>Раздел8 4</description>
+        <code xsi:type="core:StringValue">
+          <value>8_4</value>
+        </code>
+        <content id="08538b45-59d7-455c-b1f3-14d3e992a8bd">
+          <name>Раздел8_4_1</name>
+          <description>Раздел8 4,1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_4_1</value>
+          </code>
+        </content>
+        <content id="d3f8e05c-8f73-4797-a83c-cf82cf65615e">
+          <name>Раздел8_4_2</name>
+          <description>Раздел8 4,2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_4_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="2e849f97-e773-4acd-a415-e8fd9f309f30">
+        <name>Раздел8_5</name>
+        <description>Раздел8 5</description>
+        <code xsi:type="core:StringValue">
+          <value>8_5</value>
+        </code>
+        <content id="a0db7793-a215-4466-8800-17796f231b00">
+          <name>Раздел8_5_1</name>
+          <description>Раздел8 5.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_5_1</value>
+          </code>
+        </content>
+        <content id="02616477-cac9-4b22-8096-3c356d43ab4b">
+          <name>Раздел8_5_2</name>
+          <description>Раздел8 5.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_5_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="044d3a28-54fb-4f41-935a-e33fc4ada627">
+        <name>Раздел8_6</name>
+        <description>Раздел8 6</description>
+        <code xsi:type="core:StringValue">
+          <value>8_6</value>
+        </code>
+        <content id="8b2d1a9b-e869-4755-b5d2-802acd1ee62d">
+          <name>Раздел8_6_1</name>
+          <description>Раздел8 6.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_6_1</value>
+          </code>
+        </content>
+        <content id="f63cc76c-3092-44a9-a3b9-87869fbc3536">
+          <name>Раздел8_6_2</name>
+          <description>Раздел8 6.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_6_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="a5fa2b8c-fccd-4036-b511-7486f217bd0d">
+        <name>Раздел8_7</name>
+        <description>Раздел8 7</description>
+        <code xsi:type="core:StringValue">
+          <value>8_7</value>
+        </code>
+        <content id="90686e1e-9bb7-4c70-a8fe-d64a45c10ad4">
+          <name>Раздел8_7_1</name>
+          <description>Раздел8 7.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_7_1</value>
+          </code>
+        </content>
+        <content id="f4da889d-3de1-48d1-bdf6-ee04f1967c7e">
+          <name>Раздел8_7_2</name>
+          <description>Раздел8 7.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_7_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="056bd304-42fa-4bd0-8a01-44f4517b7a16">
+        <name>Раздел8_8</name>
+        <description>Раздел8 8</description>
+        <code xsi:type="core:StringValue">
+          <value>8_8</value>
+        </code>
+        <content id="22a49dd9-7188-4e3f-a030-fab08d7a8956">
+          <name>Раздел8_8_1</name>
+          <description>Раздел8 8.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_8_1</value>
+          </code>
+        </content>
+        <content id="39f92445-22b8-41b2-adf1-7f462ddae17c">
+          <name>Раздел8_8_2</name>
+          <description>Раздел8 8.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_8_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="dcfdee28-6a7f-4089-b482-502a2af31d5a">
+        <name>Раздел8_9</name>
+        <description>Раздел8 9</description>
+        <code xsi:type="core:StringValue">
+          <value>8_9</value>
+        </code>
+        <content id="7ba64051-d436-4f4e-ad96-0d71171df271">
+          <name>Раздел8_9_1</name>
+          <description>Раздел8 9.1</description>
+          <code xsi:type="core:StringValue">
+            <value>8_9_1</value>
+          </code>
+        </content>
+        <content id="4461ffb6-990a-4ebe-b628-9b5ef8c03e46">
+          <name>Раздел8_9_2</name>
+          <description>Раздел8 9.2</description>
+          <code xsi:type="core:StringValue">
+            <value>8_9_2</value>
+          </code>
+        </content>
+      </content>
+    </items>
+    <items id="f285f207-3086-44b1-94c1-d3fdf66a814d">
+      <name>Раздел9</name>
+      <description>Раздел 9</description>
+      <code xsi:type="core:StringValue">
+        <value>Раздел9</value>
+      </code>
+      <content id="6d6cdded-df05-4a71-9e68-8adacee18bf3">
+        <name>Раздел9_1</name>
+        <description>Раздел9 1</description>
+        <code xsi:type="core:StringValue">
+          <value>9_1</value>
+        </code>
+      </content>
+      <content id="3bb8673b-33ec-4061-9041-99e09db1b01e">
+        <name>Раздел9_2</name>
+        <description>Раздел9 2</description>
+        <code xsi:type="core:StringValue">
+          <value>9_2</value>
+        </code>
+        <content id="672e1df3-8a2d-4deb-a16a-75a6f953ae3b">
+          <name>Раздел9_2_1</name>
+          <description>Раздел9 2.1</description>
+          <code xsi:type="core:StringValue">
+            <value>9_2_1</value>
+          </code>
+        </content>
+        <content id="739c63e2-ad8c-473f-963d-e9e09d4e3895">
+          <name>Раздел9_2_2</name>
+          <description>Раздел9 2.2</description>
+          <code xsi:type="core:StringValue">
+            <value>9_2_2</value>
+          </code>
+        </content>
+      </content>
+      <content id="fc5be750-d916-4350-9de5-05de2a2bb4b0">
+        <name>Раздел9_3</name>
+        <description>Раздел9 3</description>
+        <code xsi:type="core:StringValue">
+          <value>9_3</value>
+        </code>
+        <content id="c8807003-543a-4477-9428-1b64a4f5e378">
+          <name>Раздел9_3_1</name>
+          <description>Раздел9 3.1</description>
+          <code xsi:type="core:StringValue">
+            <value>9_3_1</value>
+          </code>
+        </content>
+      </content>
+      <content id="a48acba3-b8ac-4447-ab46-26aa53099983">
+        <name>Раздел9_4</name>
+        <description>Раздел9 4</description>
+        <code xsi:type="core:StringValue">
+          <value>9_4</value>
+        </code>
+        <content id="0c71dc38-5df2-494e-8fe6-ea718dae1928">
+          <name>Раздел9_4_1</name>
+          <description>Раздел9 4.1</description>
+          <code xsi:type="core:StringValue">
+            <value>Раздел9_4</value>
+          </code>
+        </content>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Разделы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Разделы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Разделы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="9cb49642-ced4-4b34-af80-caec8efd0619">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="970ee3cc-b074-4da7-a244-9622e042351e">
+    <name>ПорядокСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf096006-684c-4c88-821e-63d63bce9d36">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a767ec27-6b5c-44ec-9d9a-70e05bf13a8b">
+    <name>КодРаздела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код раздела</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="49122165-2c43-44ce-bfe3-4e92c8ca32c9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cd12844e-9713-4b1e-b40a-170fbb7c9ca6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90ecf90b-9ba7-4391-aaff-61ad67e7833c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

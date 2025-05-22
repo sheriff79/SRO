@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a800b44-d510-4682-b7a8-326f3be6e3f9">
+  <producedTypes>
+    <refType typeId="fe7cade0-46ce-4081-b6e3-5cf841b351a9" valueTypeId="dd8bff86-ffae-4f85-85c1-1864f47570e3"/>
+    <listType typeId="e7c3bac3-b10b-4f33-8c00-52a8eee46706" valueTypeId="b0e00e22-6b57-4866-bcfc-085986ab6357"/>
+    <managerType typeId="fc5b44cd-b8c1-4c73-a501-143ec2fc2028" valueTypeId="38426f9f-f199-4199-8aa6-fb01d38baf77"/>
+  </producedTypes>
+  <name>СРО_ВидСоединенияДляРассылкиОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО вид соединения для рассылки отчетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4a3de5b9-38cb-49b0-95dc-bc2a9d51c96f">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69aac0c9-be8c-487f-83cd-d3a2ec430574">
+    <name>СМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>СМС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5fef93f-a300-4253-8372-72a4c8443fe9">
+    <name>Телеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телеграм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

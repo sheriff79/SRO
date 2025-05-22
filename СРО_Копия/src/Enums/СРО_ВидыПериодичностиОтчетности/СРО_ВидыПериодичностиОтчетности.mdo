@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dbd8db5-3e8f-4234-ba0d-0441ce830ad4">
+  <producedTypes>
+    <refType typeId="b94038cf-2852-4a68-876a-97925829f4f8" valueTypeId="af26969e-ce49-4cf7-b5aa-35566b764d25"/>
+    <listType typeId="a03c41c9-440c-45ea-b66f-e27ae32f7287" valueTypeId="7ba9e595-7943-4b64-9281-668296a14667"/>
+    <managerType typeId="3e934b19-41ac-49da-a9db-512fb1c761c0" valueTypeId="1238531c-dc97-4ed3-8ac6-051b4b0c73b8"/>
+  </producedTypes>
+  <name>СРО_ВидыПериодичностиОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО виды периодичности отчетности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a5236318-472d-494b-a179-d4b1d8c99334">
+    <name>Нерегулярная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерегулярная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39bd68fe-793d-4cb2-b556-84bb3e85cebe">
+    <name>Регулярная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регулярная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="320562b8-85f5-4426-95c4-1640ce05b082">
+    <name>Квартальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартальная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53edb860-48a4-4e98-9456-7fe42f85b1dd">
+    <name>Годовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

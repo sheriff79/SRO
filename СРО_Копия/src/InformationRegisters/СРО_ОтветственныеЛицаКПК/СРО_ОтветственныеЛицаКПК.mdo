@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23f622ad-4008-4543-9aa8-d4ddacd4b9e5">
+  <producedTypes>
+    <selectionType typeId="ed8be17e-c312-422f-8ad7-3c88af35f1ed" valueTypeId="62b3e39d-0611-43b6-8a91-436b4e07eaca"/>
+    <listType typeId="9ff3b6e4-2830-4065-a95e-23a4154d7e46" valueTypeId="35a7354c-d8d4-41c8-a3c1-26335cdfdf51"/>
+    <managerType typeId="1ae0f0fc-7af9-40a2-a882-7ed3f98e8ec8" valueTypeId="619fece2-b39c-4b41-8579-c0da67758498"/>
+    <recordSetType typeId="dd925af4-969e-496a-9bd5-10e18a841dbd" valueTypeId="cae49045-920a-4c67-948e-2cd1aba44b9c"/>
+    <recordKeyType typeId="a11660dd-074c-4516-b55c-62a478c9c61e" valueTypeId="834ffac5-74e1-4a30-ad7c-318a68db3f93"/>
+    <recordType typeId="070159f5-431f-475c-be7a-30e64e70e555" valueTypeId="b3323f73-c96a-4704-bdf4-88c659feae40"/>
+    <recordManagerType typeId="721991fb-9e77-43bf-abb3-afa943987e85" valueTypeId="f9a8dc4d-cb22-4085-b800-a8710fa69376"/>
+  </producedTypes>
+  <name>СРО_ОтветственныеЛицаКПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО ответственные лица КПК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="89b08d90-3a6b-444f-97e7-245f004cc557">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cc034846-e839-49bf-8193-6917f12598cc">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b491676-0993-456d-b22e-a182d6d196b4">
+    <name>КПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПК</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

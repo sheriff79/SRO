@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afbc412c-5a46-4cc1-a700-0b4d82edfc1e">
+  <producedTypes>
+    <refType typeId="75b5d78a-1e42-4ef3-a551-46fe032ab741" valueTypeId="3d64f8fc-ab7b-4e3b-acc5-757a45e80c44"/>
+    <listType typeId="1d1ad9ae-c341-4355-8245-7ead8637bf3a" valueTypeId="0959bd5d-d55a-45a4-bd1d-9c6fd4e6bba0"/>
+    <managerType typeId="b8c47c33-b70a-4988-9834-9ca8cc5fc3cd" valueTypeId="30098fcb-96cf-4cd3-b2e1-0a4f123cd1c6"/>
+  </producedTypes>
+  <name>ОснованияНаправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания направления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="623b332b-fd08-45a8-acfb-841131ea9716">
+    <name>ПервичноеНаправлениеОтчетности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичное направление отчетности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="924ac996-f2f5-4d23-8b8c-316bf81d9b2a">
+    <name>ПовторноеНаправлениеИсправленнойОтчетности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повторное направление исправленной отчетности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b4ed124-54b6-48ec-bd06-c00b815d4ccf">
+    <name>НаправлениеОтчетностиВСвязиСПолученнымПредписаниемБанкаРоссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление отчетности в связи с полученным Предписанием Банка России</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="476d0037-e8a9-4cf1-b102-d40a43350585">
+    <name>ПервичноеНаправлениеОтчетностиВСвязиСИзменениемСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичное направление отчетности в связи с изменением сведений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e05439ea-5e9d-472f-b822-0825995ef867">
+    <name>НаправлениеУточненныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление уточненных данных</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

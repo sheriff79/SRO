@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="544b9f93-5960-4db0-bb59-c3fe437e6689">
+  <producedTypes>
+    <objectType typeId="97ca704e-5d73-4d75-942a-aeb25d4e37f5" valueTypeId="b2499c9c-aa9e-444f-b8e1-9ba8a1901210"/>
+    <refType typeId="79faaa2b-e08a-4a64-a229-ed6f6544e27d" valueTypeId="eeed4269-e4cd-47de-95af-3d25b9b36cc9"/>
+    <selectionType typeId="89011d96-ebf6-4edd-838c-786ece4f4e16" valueTypeId="0e2011a7-0b3d-4476-aa8b-95fb24a0bb1b"/>
+    <listType typeId="186cd211-54c1-437c-a771-c6a09c9e5e76" valueTypeId="17fb8ad8-5fb6-49d3-9d5e-c90ff1f10c3d"/>
+    <managerType typeId="d2fb6ed4-7ade-418b-bce4-3cc22200f6f5" valueTypeId="e1363458-1a7b-4bdc-960f-fdecb6f279ee"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Валюта</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Валюты</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>10</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="80c58e9e-29f2-4922-8ec4-e21b830fd245">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

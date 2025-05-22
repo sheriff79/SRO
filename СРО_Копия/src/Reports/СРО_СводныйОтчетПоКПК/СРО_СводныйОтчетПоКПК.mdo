@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58bcbb57-9dcd-44f6-a0bb-e200b264d355">
+  <producedTypes>
+    <objectType typeId="80d4528c-2a96-4cd6-b159-a897848ae193" valueTypeId="5b5a6d0c-e32f-4224-9abe-2eda2d343645"/>
+    <managerType typeId="f7ce30b6-463e-414e-bef1-c899aced9700" valueTypeId="13b21a85-c2da-4cc8-9445-a7173f02b74c"/>
+  </producedTypes>
+  <name>СРО_СводныйОтчетПоКПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный отчет по КПК (СРО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СРО_СводныйОтчетПоКПК.Form.ФормаОтчета</defaultForm>
+  <forms uuid="d56c99f8-4062-4100-a02f-05779002c1c0">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7b05ceba-0610-4a41-8427-7951a0e158bd">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="074ce990-f90e-4844-a854-85744fcf2240">
+    <name>МакетПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет период</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

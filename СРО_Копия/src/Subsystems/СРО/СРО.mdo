@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2bd1a4f-434a-4721-9789-9c5f7080a123">
+  <name>СРО</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаФинансы</picture>
+  </picture>
+  <content>Document.ОтчетностьКПК</content>
+  <content>Catalog.Разделы</content>
+  <content>Document.ЗначенияПСК</content>
+  <content>CommonCommand.ДополнительныеОбработкиСРО</content>
+  <content>CommonCommand.ДополнительныеОтчетыСРО</content>
+  <content>InformationRegister.СРО_ЗагруженныеПочтовыеСообщения</content>
+  <content>Constant.СРО_ДополнительныйАдресЭлектроннойПочтыПоПредварительномуТестированию</content>
+  <content>InformationRegister.СРО_ОтветственныеЛицаКПК</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Document.ОтчетОПерсональномСоставеКооператива</content>
+  <content>InformationRegister.СРО_СформированныеПакеты</content>
+  <content>Report.СРО_ТаблицаФинансовыхПоказателейКПК</content>
+  <content>Report.СРО_ПроверкаОтчетностиСРассылкойПисем</content>
+  <content>Report.СРО_ОтчетПоРазделамДокументовОтчетности</content>
+  <content>Document.БухгалтерскаяОтчетность</content>
+  <content>Catalog.СРО_РазделыБО</content>
+  <content>InformationRegister.СРО_ПоказателиДокумента</content>
+  <content>Report.СРО_СводныйНФ</content>
+  <content>Report.СРО_СводныйОтчетПоКПК</content>
+  <content>AccumulationRegister.СРО_ПоказателиДокументовОтчетности</content>
+  <content>Report.СРО_ОтчетРезюме</content>
+  <content>InformationRegister.СРО_ОтправленныееПочтовыеСообщенияОПроверках</content>
+  <content>DataProcessor.КонсольЗапросовУФ</content>
+  <content>Document.ОтчетОбОперацияхСДС</content>
+  <subsystems>Настройки</subsystems>
+</mdclass:Subsystem>

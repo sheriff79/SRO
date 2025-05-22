@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd9eac9e-d84e-4f08-98e7-8a123c8ce8d8">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно-справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Банки</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.СРО_Субъекты</content>
+  <content>Catalog.СРО_УправленияГУ</content>
+  <content>Constant.ЛогинИТС</content>
+  <content>Constant.ПарольИТС</content>
+</mdclass:Subsystem>

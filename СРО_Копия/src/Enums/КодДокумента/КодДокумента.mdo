@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad81c86d-cfab-4715-9013-15e70e099268">
+  <producedTypes>
+    <refType typeId="c1ae7b26-5ae3-43e5-98fc-55f8f6303a52" valueTypeId="43ea8d89-ebda-4727-9212-6959ba9e4772"/>
+    <listType typeId="417ed93e-b60a-46e1-b00d-e4d99ed9a825" valueTypeId="66c3d909-2c40-4d0e-b9ac-0622937ee1a1"/>
+    <managerType typeId="783e544d-189f-42e6-86a6-ede98331dc8c" valueTypeId="c45fe9db-c290-4612-a48f-af19dd5cbab7"/>
+  </producedTypes>
+  <name>КодДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код документа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="00985307-7f06-4cd6-99a8-5b91e91c4936">
+    <name>ОКУД_0420820_21631</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.3.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e18a887-df5d-41e0-b895-31800b743f9c">
+    <name>ОКУД_0420820_21632</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.3.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d39e5d1-ecf1-48eb-80c8-a3571109f99c">
+    <name>ОКУД_0420820_21633</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.3.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20924a2e-22f3-4daf-ac63-9148abfc3dcf">
+    <name>ОКУД_0420820_21634</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.3.4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22872e7a-65b2-48c3-8956-3a28d3ac4356">
+    <name>ОКУД_0420820_2164</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="145d7878-d543-46fd-a142-bc030758b1db">
+    <name>ОКУД_0420820_21641</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.4.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8a2193a-0f6f-4f02-a5a3-25c56c75e664">
+    <name>ОКУД_0420820_21642</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.4.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9ea1763-1683-40b3-9316-d40e0114ac0b">
+    <name>ОКУД_0420820_21644</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.4.4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a7dc634-7358-4992-9327-e1fc83f6fc10">
+    <name>ОКУД_0420820_2165</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420820 2.16.5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d09565e5-04f7-4ba4-94c0-63fc9e123aa0">
+    <name>ОКУД_0420821_21632</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420821 2.16.3.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b5aec56-49df-46ca-b2c8-a902f15fd461">
+    <name>ОКУД_0420821_21633</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420821 2.16.3.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94c9b520-9abc-4418-9f9f-1e3ce4a9b35d">
+    <name>ОКУД_0420821_21634</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420821 2.16.3.4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac228363-1ff5-44c7-8778-a3548b06ae46">
+    <name>ОКУД_0420821_21643</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420821 2.16.4.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b969e56-00b3-4fbd-9792-de095d200802">
+    <name>ОКУД_0420821_2165</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420821 2.16.5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="227976d5-c152-4682-9468-176227674612">
+    <name>КодНеОпределен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код не определен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4585ff8-d323-4a66-ba13-944a7a1bb9a7">
+    <name>БО_2163</name>
+    <synonym>
+      <key>ru</key>
+      <value>БО 2.16.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a637cc5-1a1d-4b36-801a-92b87f61a917">
+    <name>ОКУД0420001_2163</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420001 2.16.3 (ДС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="215b1923-9bb7-45f7-8886-de8ccf235594">
+    <name>ОКУД0420001_2164</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420001 2.16.4 (ДС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a305924-f5d8-472f-9cbf-61e9e6212eb7">
+    <name>ОКУД0420001_21641</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420001 2.16.4.1 (ДС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67694996-ab49-4cd8-b149-6de4529ac091">
+    <name>ОКУД0420001_2165</name>
+    <synonym>
+      <key>ru</key>
+      <value>0420001 2.16.5 (ДС)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

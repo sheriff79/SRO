@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="623b04d9-226f-4f35-8622-1f10cddea830">
+  <producedTypes>
+    <objectType typeId="9eadfc31-1900-4862-829e-5c83e75f7607" valueTypeId="98e6c3d7-6d22-4f5f-a023-cc30679e11e1"/>
+    <refType typeId="ba35c2cf-3519-457c-8dfc-959094b05d0c" valueTypeId="2b875088-dc00-4725-8f69-81bb51c9e6cc"/>
+    <selectionType typeId="43ee0565-58c5-425f-b529-3ac903518e86" valueTypeId="bcaf1250-fc47-44c1-a122-29bad3f100c9"/>
+    <listType typeId="528d9e9c-f3e8-4c9e-a12d-5e302a135d3c" valueTypeId="9e239978-9344-4622-ac01-610c6c4bbe25"/>
+    <managerType typeId="f129e519-00b7-4e2f-b63a-36624373062f" valueTypeId="8a381066-73ad-4885-8b88-5fb44c5798bb"/>
+  </producedTypes>
+  <name>СреднерыночныеЗначенияПолнойСтоимостиКредитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Среднерыночные значения полной стоимости кредитов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СреднерыночныеЗначенияПолнойСтоимостиКредитов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СреднерыночныеЗначенияПолнойСтоимостиКредитов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Среднерыночное значение ПСК</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Среднерыночные значения ПСК</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6ecaae53-c184-4ce5-ba52-828162476221">
+      <name>ЗаймыБезОбеспечения</name>
+      <description>Потребительские займы без обеспечения:</description>
+      <code xsi:type="core:StringValue">
+        <value>3</value>
+      </code>
+      <content id="a67710a2-db19-4b5d-8901-4e9a1de198ec">
+        <name>ЗаймыБезОбеспеченияДо30Дней</name>
+        <description>до 30 дней включительно, в том числе:</description>
+        <code xsi:type="core:StringValue">
+          <value>3.1</value>
+        </code>
+        <content id="a1550427-a1c6-4563-a3a9-6de692e8f3c6">
+          <name>ЗаймыБезОбеспеченияДо30ДнейДо30тыс</name>
+          <description>до 30 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.1.1</value>
+          </code>
+        </content>
+        <content id="a12b3b49-5aea-463a-977b-ca3168be8901">
+          <name>ЗаймыБезОбеспеченияДо30ДнейСвыше30тыс</name>
+          <description>свыше 30 тыс. руб;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.1.2    </value>
+          </code>
+        </content>
+      </content>
+      <content id="c8564b43-492a-4a4f-8dee-b76eacd5fda1">
+        <name>ЗаймыБезОбеспечения61_180Дней</name>
+        <description>от 61 до 180 дней включительно, в том числе:</description>
+        <code xsi:type="core:StringValue">
+          <value>3.3</value>
+        </code>
+        <content id="0f97b0a0-7ad0-4de8-a3b2-ab401045a8cc">
+          <name>ЗаймыБезОбеспечения61_180ДнейДо30тыс</name>
+          <description>до 30 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.3.1</value>
+          </code>
+        </content>
+        <content id="bcd1b57b-8168-4add-9f44-7577c4c86954">
+          <name>ЗаймыБезОбеспечения61_180ДнейСвыше100тыс</name>
+          <description>свыше 100 тыс. руб.</description>
+          <code xsi:type="core:StringValue">
+            <value>3.3.3    </value>
+          </code>
+        </content>
+        <content id="a977fec8-bb20-4687-8a77-fb6c4bad2627">
+          <name>ЗаймыБезОбеспечения61_180ДнейСвыше30До100тысВключительно</name>
+          <description>свыше 30 тыс. руб. до 100 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.3.2    </value>
+          </code>
+        </content>
+      </content>
+      <content id="34e3c9c5-28be-4108-ac32-675cba3f11a8">
+        <name>ЗаймыБезОбеспечения31_60Дней</name>
+        <description>от 31 до 60 дней включительно, в том числе:</description>
+        <code xsi:type="core:StringValue">
+          <value>3.2</value>
+        </code>
+        <content id="27d6750a-f28c-40a6-a9ea-846446abb463">
+          <name>ЗаймыБезОбеспечения31_60ДнейСвыше30тыс</name>
+          <description>свыше 30 тыс. руб.</description>
+          <code xsi:type="core:StringValue">
+            <value>3.2.2    </value>
+          </code>
+        </content>
+        <content id="bc548550-a744-4586-8e58-b59102bf5724">
+          <name>ЗаймыБезОбеспечения31_60ДнейДо30тыс</name>
+          <description>до 30 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.2.1</value>
+          </code>
+        </content>
+      </content>
+      <content id="83d9d60a-a869-4bdf-99f2-c78a873a3160">
+        <name>ЗаймыБезОбеспечения181_365Дней</name>
+        <description>от 181 до 365 дней включительно, в том числе:</description>
+        <code xsi:type="core:StringValue">
+          <value>3.4</value>
+        </code>
+        <content id="94424da2-33a6-4413-a917-dd777391799e">
+          <name>ЗаймыБезОбеспечения181_365ДнейДо30тыс</name>
+          <description>до 30 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.4.1</value>
+          </code>
+        </content>
+        <content id="57be959d-8065-445d-b526-1d1d693d1819">
+          <name>ЗаймыБезОбеспечения181_365ДнейСвыше30до60тысВключительно</name>
+          <description>свыше 30 тыс. руб. до 60 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.4.2    </value>
+          </code>
+        </content>
+        <content id="bb94496a-4f1c-4f1e-a95b-2d4f2d12ad07">
+          <name>ЗаймыБезОбеспечения181_365ДнейСвыше100тыс</name>
+          <description>свыше 100 тыс. руб.</description>
+          <code xsi:type="core:StringValue">
+            <value>3.4.4    </value>
+          </code>
+        </content>
+        <content id="5749c7b1-36a3-4a90-91ae-c9b35016f103">
+          <name>ЗаймыБезОбеспечения181_365ДнейСвыше60До100тысВключительно</name>
+          <description>свыше 60 тыс. руб. до 100 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.4.3    </value>
+          </code>
+        </content>
+      </content>
+      <content id="c39946fd-e160-489a-8e32-3beec14fc361">
+        <name>ЗаймыБезОбеспеченияСвыше365Дней</name>
+        <description>свыше 365 дней, в том числе:</description>
+        <code xsi:type="core:StringValue">
+          <value>3.5</value>
+        </code>
+        <content id="ebc0274f-1aa9-4339-9d01-73bb6623338a">
+          <name>ЗаймыБезОбеспеченияСвыше365ДнейДо30тыс</name>
+          <description>до 30 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.5.1</value>
+          </code>
+        </content>
+        <content id="2208a4ea-1082-49cf-83a5-ddb5574bb033">
+          <name>ЗаймыБезОбеспеченияСвыше365ДнейСвыше60До100тысВключительно</name>
+          <description>свыше 60 тыс. руб. до 100 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.5.3    </value>
+          </code>
+        </content>
+        <content id="072273d0-7999-4055-ad2a-318a91b3bb09">
+          <name>ЗаймыБезОбеспеченияСвыше365ДнейСвыше100тыс</name>
+          <description>свыше 100 тыс. руб.</description>
+          <code xsi:type="core:StringValue">
+            <value>3.5.4    </value>
+          </code>
+        </content>
+        <content id="1a51fc92-b893-45b7-897f-2303ed58c722">
+          <name>ЗаймыБезОбеспеченияСвыше365ДнейСвыше30До60тысВключительно</name>
+          <description>свыше 30 тыс. руб. до 60 тыс. руб. включительно;</description>
+          <code xsi:type="core:StringValue">
+            <value>3.5.2    </value>
+          </code>
+        </content>
+      </content>
+    </items>
+    <items id="5b246ec7-7c87-47ba-ad27-9cbb5e07998c">
+      <name>ЗаймыСИнымОбеспечением</name>
+      <description>Потребительские займы с иным обеспечением, в том числе:</description>
+      <code xsi:type="core:StringValue">
+        <value>2        </value>
+      </code>
+      <content id="98d0b3a6-1221-4046-9a86-a58ea3824ad2">
+        <name>ЗаймыСИнымОбеспечениемДо365ДнейВключитильно</name>
+        <description>до 365 дней включительно</description>
+        <code xsi:type="core:StringValue">
+          <value>2.1</value>
+        </code>
+      </content>
+      <content id="d289985c-7407-4f55-b8b1-b38403bc3b01">
+        <name>ЗаймыСИнымОбеспечениемСвыше365Дней</name>
+        <description>свыше 365 дней</description>
+        <code xsi:type="core:StringValue">
+          <value>2.2      </value>
+        </code>
+      </content>
+    </items>
+    <items id="9ff091cd-913e-4672-afac-59f37a29d2d1">
+      <name>ЗаймыСОбеспечениемВВидеЗалога</name>
+      <description>Потребительские займы с обеспечением в виде залога</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СреднерыночныеЗначенияПолнойСтоимостиКредитов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СреднерыночныеЗначенияПолнойСтоимостиКредитов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="ff09428b-1206-40b9-81d8-b49209c741fb">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Разделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f30766fb-2ec7-496f-a948-ce6d0b0c8677">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b19bd620-f1ad-4bb9-a46c-c9d1d692d191">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

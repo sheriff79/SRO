@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32f7c8c6-1b63-42ee-b163-cedb0136360e">
+  <producedTypes>
+    <refType typeId="e401353b-434b-4c2a-b55f-6929d590ad71" valueTypeId="1b79734e-21ee-45ca-8daf-7913bc1de504"/>
+    <listType typeId="76a6352e-d5b8-49bb-84cf-c928687c74b4" valueTypeId="eee50e6b-818b-4574-937c-fae5b57046e5"/>
+    <managerType typeId="abde6916-d814-4725-b5e1-bd05d927ca1e" valueTypeId="60e2af4f-c493-41d8-b037-60f961fdea81"/>
+  </producedTypes>
+  <name>СРО_ТипФизЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип физ лица (СРО)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="99ffc957-87fd-434d-8062-3538edc703db">
+    <name>ВходитВЕдиноличныйИсполнительныйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в единоличный исполнительный орган</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25965e07-9996-4607-94a4-f0a7cad15fd1">
+    <name>ВходитВПравление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в правление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e97a5013-31ef-4a67-88ec-861915ab1c6e">
+    <name>ВходитВКонтрольноРевизионныйОрган</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в контрольно ревизионный орган</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41d46bd5-484d-49e2-96e4-c7b6bd438dc7">
+    <name>ВходитВКомитетПоЗаймам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в комитет по займам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b45517b-580a-404f-a9cd-c3b504ede50d">
+    <name>ВходитВИнойОрганКооператива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в иной орган кооператива</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84a999d5-ba99-4608-a402-28c463191447">
+    <name>ОтветственныйЗаПравилаВнутреннееКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за правила внутреннее контроля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c34b2c25-f0b6-4c98-a4d0-8b342cfe5ff9">
+    <name>ЛицоНаКотороеВозложеноВедениеБухУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицо, на которое возлагается ведение бухгалтерского учета</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

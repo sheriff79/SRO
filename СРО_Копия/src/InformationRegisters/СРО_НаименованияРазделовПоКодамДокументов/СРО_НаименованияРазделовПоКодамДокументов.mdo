@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91e43eaa-172e-4d76-8a9d-6183553e72d7">
+  <producedTypes>
+    <selectionType typeId="05733e74-fc78-4db3-a680-2ab9a8a779cf" valueTypeId="575a20d6-46df-4b84-b660-6783d1d6a2d2"/>
+    <listType typeId="22b57666-8742-4b19-8cbd-4569e7a9bd73" valueTypeId="9cb54fea-ec2a-4994-a425-5848f4daddb7"/>
+    <managerType typeId="b3119a1e-84fd-41a6-949d-3ec285677f4f" valueTypeId="233dd72a-125e-4f83-9b7c-38677c4e7b56"/>
+    <recordSetType typeId="44e39536-e15e-4692-82ae-e9c007740329" valueTypeId="2c4dff67-31f0-4292-98f4-0a97b66e3257"/>
+    <recordKeyType typeId="c6fb84c9-c8fb-4cea-9a37-ca30f2868a6d" valueTypeId="067671dc-a71e-430b-960e-6c08a954f4ff"/>
+    <recordType typeId="1cb3fad5-195e-4f6f-8e41-82ba7ecf9425" valueTypeId="8101b865-e5e2-4787-bf4f-5688ebab3e3e"/>
+    <recordManagerType typeId="8903cc14-11fa-487e-8c46-5b44c3f34e53" valueTypeId="300db411-a47e-42cb-ac12-b13690942616"/>
+  </producedTypes>
+  <name>СРО_НаименованияРазделовПоКодамДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименования разделов по кодам документов (СРО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СРО_НаименованияРазделовПоКодамДокументов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СРО_НаименованияРазделовПоКодамДокументов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d01c8449-95cf-4b88-8c12-2788efc4caf7">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e6c48ed3-9225-4b12-a641-15fa80ff0044">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Разделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="435428ef-ec24-420e-8155-f9c41c16436b">
+    <name>КодДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КодДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6274500d-58ea-480a-b0c5-d34188ef75cc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0b438bc-6e72-4039-ab47-54e112fc7940">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

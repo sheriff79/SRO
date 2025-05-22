@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ae0071f-ca6e-44b9-afc4-82d895722605">
+  <producedTypes>
+    <objectType typeId="68644536-e235-40c7-b48f-7c6dec63b960" valueTypeId="e9655d23-0175-4de1-a8b8-db9dc32c95e1"/>
+    <refType typeId="ad7a0b37-efd3-4a79-ba9f-0526f7f58d26" valueTypeId="9bc40d17-5775-4559-8514-2033e57c3922"/>
+    <selectionType typeId="ec17df59-86f7-4d9a-8aa9-c4b82e9e3246" valueTypeId="c72546e2-13ec-47db-87c1-ddbaf4eaa1a5"/>
+    <listType typeId="076f4134-ba29-4982-beaa-e01b0987c01b" valueTypeId="63f9dcc6-d69d-4d7d-a185-0286c1fc7207"/>
+    <managerType typeId="34b35b97-f9a5-424a-b4b6-870bef01abea" valueTypeId="dca60f8b-8d30-4126-9a0b-edff128d924a"/>
+  </producedTypes>
+  <name>ЗначенияПСК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Среднерыночные значения ПСК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗначенияПСК.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗначенияПСК.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="445c51bd-2d9f-406e-b542-2cadee1b2527">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2169c8e6-6bb4-4ce5-be3e-897e7cdbd0a5">
+    <name>ВидОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="081bbe22-0a53-4d49-826e-47edce6666bb">
+    <name>ДатаОкончанияОтчетногоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания отчетного периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e475c9e6-d4fb-447e-8a71-7ea3c45c494c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9e50e9ff-476f-493f-bad4-0d49631a33b1">
+    <producedTypes>
+      <objectType typeId="92081dbc-f63e-495e-afba-816b17795cff" valueTypeId="a32c9900-20e5-42b2-bb4d-6b8ec6eae3ca"/>
+      <rowType typeId="49b6e818-72cc-4014-a221-690bda146114" valueTypeId="6474c40e-a787-4470-8277-0dccdcc96936"/>
+    </producedTypes>
+    <name>РазделыПСК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделы ПСК</value>
+    </synonym>
+    <attributes uuid="8f900647-bf07-4927-8f6f-e2af4596ff15">
+      <name>Раздел</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Разделы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a522adcd-0092-401b-926e-2bc7ae45d78f">
+      <name>ЗначениеПСК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Среднерыночное значение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a633d425-4d04-4d71-9aef-65487d42f172">
+      <name>ПредельноеЗначениеПСК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предельные значения полной стоимости потребительских кредитов (займов) (процент)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7a35d9f9-2122-4629-8538-66dc211ca787">
+      <name>Код</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64f07b92-9c2a-4fc6-9403-740962525b5e">
+      <name>НаименованиеРаздела</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование раздела</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e776abb-56c9-452a-ab8f-7d03ae3991b5">
+  <name>СРО_МакетНормативы_4кв2018ПериодНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО макет нормативы 4кв2018 период новый</value>
+  </synonym>
+</mdclass:CommonTemplate>

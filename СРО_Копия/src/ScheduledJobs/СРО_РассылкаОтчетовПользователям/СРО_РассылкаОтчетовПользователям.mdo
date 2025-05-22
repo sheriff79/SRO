@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55e8b2da-3838-4522-bd55-50ee9da8738a">
+  <name>СРО_РассылкаОтчетовПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка отчетов пользователям (СРО)</value>
+  </synonym>
+  <methodName>CommonModule.СРО_ФормированиеИОтправкаОтчетов.ЗаполнитьПараметрыИСформироватьОтчет</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

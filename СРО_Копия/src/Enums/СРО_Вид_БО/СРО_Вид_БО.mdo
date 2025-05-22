@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be765917-98f6-47c4-8485-a07d4837b169">
+  <producedTypes>
+    <refType typeId="e1913884-f80f-4a2e-836f-67ad9a2f1f7b" valueTypeId="1c25f90c-2c98-43f1-8bc8-b8e2e0c89186"/>
+    <listType typeId="4fa06b4e-8a0a-409c-b1e0-3e0ccf0a31c6" valueTypeId="15c4bd85-c28c-45bf-9c29-aef0a07970a6"/>
+    <managerType typeId="232632cf-9043-4af3-84e3-3c6a9e208bf7" valueTypeId="10094b6b-628d-493d-8087-caae86dd7f27"/>
+  </producedTypes>
+  <name>СРО_Вид_БО</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО вид БО</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dca2df8a-589a-4ef7-b651-84da0cf84955">
+    <name>Промежуточная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промежуточная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff1801b0-d1ff-4dea-b56d-51d68cb09044">
+    <name>Годовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07121147-1543-4f43-8728-2abf13ae567e">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СреднерыночныеЗначенияПолнойСтоимостиКредитов</content>
+  <content>Constant.СРО_АдресДляТестовойРассылки</content>
+  <content>Constant.СРО_КаталогДляСохраненияДокументовРассылки</content>
+  <content>Constant.СРО_ПоследнийИсходящийНомерДокументаДляРассылки</content>
+  <content>Constant.СРО_КаталогЗагруженныхФайловССайта</content>
+  <content>Constant.СРО_ПоследнийНомерПакетаВСРО_OD</content>
+  <content>Constant.СРО_ПоследнийНомерПакетаВСРО_PS</content>
+  <content>Constant.СРО_КаталогДляСформированныхПакетов</content>
+  <content>Constant.СРО_ПоследнийНомерПакетаВСРО_РазделыX_XI</content>
+  <content>InformationRegister.СРО_КомандыДляРассылки</content>
+  <content>InformationRegister.СРО_КодыВысылаемыхОтчетовПольхователям</content>
+  <content>Catalog.СРО_КодыОтчетов</content>
+  <content>Catalog.СРО_АдресаЭлектроннойПочтыДляРассылки</content>
+  <content>Constant.СРО_ПоследнийНомерПакетаВСРО_BO</content>
+  <content>Constant.СРО_Должность_Иное</content>
+  <content>Constant.СРО_ПоследнийНомерПакетаВСРО_DS</content>
+  <content>Constant.СРО_КаталогЗагруженныхФайловСЛичногоКабинета</content>
+  <content>Constant.СРО_ПроверяемыйНомерВОчереди</content>
+  <content>Constant.КаталогДляОбновленияЕГРЮЛ</content>
+  <subsystems>Отчеты</subsystems>
+  <parentSubsystem>Subsystem.СРО</parentSubsystem>
+</mdclass:Subsystem>

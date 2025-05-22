@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a12a0cf1-ae1e-4a2a-99db-fd082bc591b1">
+  <producedTypes>
+    <objectType typeId="b44e8ecb-5315-4588-8d59-11d6c8a72b46" valueTypeId="577028de-2d24-4668-bd70-a6d5b476758c"/>
+    <managerType typeId="0c71077f-f1cc-4fa3-b808-a3e95a9cec6e" valueTypeId="db135ede-e347-4595-b7e1-f854e7d3e0ea"/>
+  </producedTypes>
+  <name>СРО_СводныйНФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный НФ (СРО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СРО_СводныйНФ.Form.ФормаОтчета</defaultForm>
+  <forms uuid="f296dc7d-a9f6-4b79-836b-c0a0c67fc83b">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73b60917-bd5d-4b22-abb3-df5a66ab67bb">
+    <name>ФормаОтбораПоСписку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора по списку</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a59a0418-859e-4229-a59b-c70f60a8863e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

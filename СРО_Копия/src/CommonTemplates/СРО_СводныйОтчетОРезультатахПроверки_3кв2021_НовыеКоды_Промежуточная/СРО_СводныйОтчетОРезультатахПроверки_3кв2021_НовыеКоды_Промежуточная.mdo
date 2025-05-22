@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fcb8a1a-92b2-43c3-bd52-5f2937c6d5c1">
+  <name>СРО_СводныйОтчетОРезультатахПроверки_3кв2021_НовыеКоды_Промежуточная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный отчет о результатах проверки 3 кв 2021 (новые коды) (СРО)</value>
+  </synonym>
+</mdclass:CommonTemplate>

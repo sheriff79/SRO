@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82eae6d3-9235-4803-9b0c-46be1e7ba67e">
+  <name>ЯндексКассаБЭД1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс.Касса</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4c31f1e-bac6-4cca-910f-447bd35f54e5">
+  <name>СРО_Резюме_2_16_4</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО резюме 2 16 4</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1be3a65c-da72-4fd4-9c71-22f15178c341">
+  <producedTypes>
+    <managerType typeId="20fffe1c-8eaa-474b-9649-c541cd6542a8" valueTypeId="0620a743-767b-4ec6-9b59-2e159c6bc9cd"/>
+  </producedTypes>
+  <name>ПолучениеДереваОбработчиковОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение дерева обработчиков обновления</value>
+  </synonym>
+</mdclass:SettingsStorage>

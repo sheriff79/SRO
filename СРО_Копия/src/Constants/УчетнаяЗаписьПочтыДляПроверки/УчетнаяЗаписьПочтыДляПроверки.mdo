@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e30ffc0-12b5-412c-9743-1f38dc602289">
+  <producedTypes>
+    <managerType typeId="7b4561b1-bc66-4f79-b5e0-769c609a0c83" valueTypeId="9e8f2a4e-bc2d-44ca-8bc6-9eb3e7a55111"/>
+    <valueManagerType typeId="6dbb4a6e-7ad2-4bba-8414-21f39b7f5903" valueTypeId="96472a10-6af4-4601-9cc0-3e779057d9ec"/>
+    <valueKeyType typeId="9a55b4f8-6d22-4c38-89f7-6b29bf2a208b" valueTypeId="6c774504-d01a-421a-b252-e8e5ad5f6639"/>
+  </producedTypes>
+  <name>УчетнаяЗаписьПочтыДляПроверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная запись почты для проверки</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

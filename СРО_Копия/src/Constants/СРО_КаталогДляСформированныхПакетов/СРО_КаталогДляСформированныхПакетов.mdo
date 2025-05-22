@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8512e241-64b8-4194-a592-d24b34031653">
+  <producedTypes>
+    <managerType typeId="4c42f5b9-cf7e-4cdc-a972-ce36450ce762" valueTypeId="d8eb81c0-f309-43ad-8aea-980f0cf33947"/>
+    <valueManagerType typeId="3c17d7b5-1372-465e-b0fd-55f47eb6432e" valueTypeId="a8c7e780-ebde-4157-893a-4c39e0ad05e5"/>
+    <valueKeyType typeId="a1bdb5bf-3c52-4275-b3ad-555ffd812735" valueTypeId="588d528e-f539-4c3f-be68-715e4a231358"/>
+  </producedTypes>
+  <name>СРО_КаталогДляСформированныхПакетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог для сформированных пакетов (СРО)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

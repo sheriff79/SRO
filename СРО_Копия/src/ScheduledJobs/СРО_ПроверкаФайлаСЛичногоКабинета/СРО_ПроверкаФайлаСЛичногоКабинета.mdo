@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d6b4b36-cbba-48e1-b27f-db837cca2a4e">
+  <name>СРО_ПроверкаФайлаСЛичногоКабинета</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО проверка файла с личного кабинета</value>
+  </synonym>
+  <methodName>CommonModule.СРО_ЗагрузкаОтчетности.СРО_ПроверкаФайлаСЛичногоКабинета</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

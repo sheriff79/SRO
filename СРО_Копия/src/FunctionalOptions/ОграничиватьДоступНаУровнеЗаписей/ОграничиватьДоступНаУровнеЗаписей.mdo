@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ae3787e-fde7-46d6-ae99-c3d640fc33ba">
+  <name>ОграничиватьДоступНаУровнеЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать доступ на уровне записей</value>
+  </synonym>
+  <location>Constant.ОграничиватьДоступНаУровнеЗаписей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

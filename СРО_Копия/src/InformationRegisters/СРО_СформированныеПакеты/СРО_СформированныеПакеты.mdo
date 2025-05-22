@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ceda5d-70ed-4df8-870c-32f3a22dab6a">
+  <producedTypes>
+    <selectionType typeId="13da430b-d782-4c91-8ccc-39de4ee6839b" valueTypeId="e8e83b37-d63c-41e8-91d0-b7615d19c51e"/>
+    <listType typeId="f7827047-0a1e-4c1d-a9ac-0dcc78eb93b7" valueTypeId="38b8b48b-9208-4641-bb0d-960adee817d5"/>
+    <managerType typeId="b7d09adb-01d8-4298-92d6-2bab3c3063f4" valueTypeId="f723d44f-83af-4f87-8ea8-2314c364cbdb"/>
+    <recordSetType typeId="6e65f6cb-961d-4768-b505-6e2564dc479b" valueTypeId="94417704-6a00-4f3e-a88c-ee64e8123df6"/>
+    <recordKeyType typeId="722f5a0a-97f2-424b-b490-f0805645a686" valueTypeId="4bb3de14-a83d-4016-8af8-36d615c5b036"/>
+    <recordType typeId="8586dbed-7c37-4dc6-8555-84a2b2efc375" valueTypeId="83795282-b830-4ede-bcf6-0a12222163ed"/>
+    <recordManagerType typeId="4a685188-403c-4370-ba93-cf3f2f35334d" valueTypeId="54f42922-bbd4-4d6c-a5cf-a77f224710ad"/>
+  </producedTypes>
+  <name>СРО_СформированныеПакеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО сформированные пакеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СРО_СформированныеПакеты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0ae68957-bb33-4f47-8a89-40fc9da8969d">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипДокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="86e49185-476e-4d95-9d9f-8e42934ebc75">
+    <name>НомерПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер пакета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ffae2e7f-a991-4290-8368-8edb56d3b200">
+    <name>ДокументВПакете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ в пакете</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.БухгалтерскаяОтчетность</types>
+      <types>DocumentRef.ОтчетностьКПК</types>
+      <types>DocumentRef.ОтчетОПерсональномСоставеКооператива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="26198c5f-9127-4bd3-8cf0-945565066005">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5e20962e-aa82-489e-b9e9-7a73c6f3c152">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

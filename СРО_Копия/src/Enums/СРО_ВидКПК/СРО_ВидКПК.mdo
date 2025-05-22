@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1d76659-9cfa-4aa7-88ef-8defc0ad5a75">
+  <producedTypes>
+    <refType typeId="9d5ed34b-cd4c-4302-bb09-4cedcf75cd0c" valueTypeId="e990742c-3df6-400c-a79f-04824e36e725"/>
+    <listType typeId="b64a155f-b90c-4ffe-84df-6ac8ecb795a7" valueTypeId="0c752478-150c-4889-be7d-a949f398d8c4"/>
+    <managerType typeId="f8154cdb-5eac-47c5-bacf-95486d53927a" valueTypeId="46193a45-ba6c-4749-ae3e-c251da56e522"/>
+  </producedTypes>
+  <name>СРО_ВидКПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО вид КПК</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e178d5bd-5623-44e4-970f-2caa5bc8096a">
+    <name>КПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3aa561b4-b9c4-4312-8038-5749eaded5d0">
+    <name>СКПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКПК</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

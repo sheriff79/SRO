@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0049f8f8-fc5a-4081-9775-5a90fd52ca86">
+  <producedTypes>
+    <objectType typeId="1d5a361b-0424-4d28-abc3-14b5f7450b7b" valueTypeId="87691540-96f8-40e7-a116-2fed12a110d8"/>
+    <managerType typeId="f85f0c8e-ee2c-444b-8202-c93df65658d1" valueTypeId="23d992ed-f08c-44e8-861a-8125157e3852"/>
+  </producedTypes>
+  <name>СРО_ТаблицаФинансовыхПоказателейКПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица финансовых показателей КПК (СРО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СРО_ТаблицаФинансовыхПоказателейКПК.Form.ФормаОтчета</defaultForm>
+  <forms uuid="1d16070a-b65f-4eb4-a491-23e7df0a8ac2">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8a830fc7-3de6-437b-bcb9-7a8608b7a981">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

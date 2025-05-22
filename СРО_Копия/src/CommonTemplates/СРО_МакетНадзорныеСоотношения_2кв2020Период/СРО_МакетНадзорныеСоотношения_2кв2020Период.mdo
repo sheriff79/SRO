@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64a1a6c9-51e7-4769-9cd0-ddd2f9a0504b">
+  <name>СРО_МакетНадзорныеСоотношения_2кв2020Период</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макет надзорные соотношения 2кв 2020 период (СРО)</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5ad8a9e-9bbe-4361-86d1-f4a3e94f4813">
+  <producedTypes>
+    <selectionType typeId="6529e12e-c1ca-4fe4-ac72-db3ae43c5a50" valueTypeId="c5b0c38b-845c-4e24-be47-71fbb64dd365"/>
+    <listType typeId="92876cca-66a8-40c2-a6d6-cdae9542ff78" valueTypeId="08b4d4e8-2fa6-4054-bf3b-5708bfba60b7"/>
+    <managerType typeId="b47bc991-63e1-498a-bee7-13b9819e7055" valueTypeId="fb372358-893a-46a2-8ba0-0953f552c6ec"/>
+    <recordSetType typeId="ea7334c2-6e17-4437-aa8b-8a12ac137582" valueTypeId="1a0e4124-b829-40ef-9f0c-98138a6c616f"/>
+    <recordKeyType typeId="fab13c71-6663-4278-a3cc-abcdbc058329" valueTypeId="1f621b73-0558-4975-912a-a6e32cd042e6"/>
+    <recordType typeId="c8086d80-5aa4-465b-bfe4-abd0cb14a125" valueTypeId="ea596902-9cb3-4fa1-bbf5-6c38c426b389"/>
+    <recordManagerType typeId="6c8028ce-c77c-459a-8205-d299f49ad8b9" valueTypeId="fbd196fe-c41d-46a5-8448-da82b749e82b"/>
+  </producedTypes>
+  <name>СРО_ОтправленныееПочтовыеСообщенияОПроверках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправленные почтовые сообщения о проверках (СРО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СРО_ОтправленныееПочтовыеСообщенияОПроверках.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СРО_ОтправленныееПочтовыеСообщенияОПроверках.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9466eec8-0018-4d56-b33b-112df24d9a2d">
+    <name>СтатусДокументаОтчетности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус документа отчетности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусДокументаОтчетности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="376deb2c-e058-4349-8257-b9b5a453bd83">
+    <name>ОтчетностьКПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчетность КПК</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.БухгалтерскаяОтчетность</types>
+      <types>DocumentRef.ОтчетностьКПК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="92207b88-e409-4b1f-8eb5-db997033c06e">
+    <name>КПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПК</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="724aaf42-7c2c-4473-aedc-438b94b6d615">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="48c241c0-68a8-4e32-8285-31e1c01d7dca">
+    <name>КоличествоОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ошибок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="da3c7416-5a5f-4785-8a82-4d48718a3991">
+    <name>ТекстСообщенияООшибках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения о ошибках</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="62181825-2606-4543-8e33-bd972817781b">
+    <name>ОтчетныйПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчетный период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e1c457db-9257-404b-88f3-b62e9dfc4874">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="0e6ab4a9-d688-42ec-be57-7a32bf2b870b">
+    <name>ИДФайлаПочтовогоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДФайла почтового сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7d289a71-874b-4ac6-a6e7-0e401d62d42c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30d15dd6-55d5-481a-bb1f-c3fc6dc0e8a3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

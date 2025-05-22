@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f28e19c-ea43-4c14-8edd-3c241ef7da00">
+  <producedTypes>
+    <refType typeId="d079538f-b9a2-45b1-91de-b46c727627f6" valueTypeId="7fab77d5-3a69-4b86-98ee-09649805268f"/>
+    <listType typeId="dd2d74a3-2cbc-4c74-a2e1-c139844232c9" valueTypeId="eec5395f-217b-4d43-92c5-f1476fedc617"/>
+    <managerType typeId="ecfad203-4aec-49f2-b25e-5fbc12ccdafb" valueTypeId="cda8a91c-b5a1-469c-9988-90ab597b0600"/>
+  </producedTypes>
+  <name>СРО_ВидПериодаБО</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО вид периода БО</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a4cb1dfc-a0fa-4e13-be67-09cbc7e663d1">
+    <name>Квартал1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cc85cda-6183-4a67-854d-7e05ba85dcb4">
+    <name>Квартал2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d1aa5d7-6abe-47e1-92cc-b6eb8af63e1c">
+    <name>Квартал3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 квартал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9e5b470-781c-4869-a404-89a6e925aeaa">
+    <name>Годовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

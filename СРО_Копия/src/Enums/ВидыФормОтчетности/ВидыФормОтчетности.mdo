@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="945094cf-d5d6-4df8-8275-75eca665abb1">
+  <producedTypes>
+    <refType typeId="a78999fb-1274-4c1a-908c-6dda0e3f5079" valueTypeId="08c2bf7e-d7ce-4f19-a36b-0912c8e859b7"/>
+    <listType typeId="525e98d7-ff9a-4d6f-b695-0940fd971284" valueTypeId="6a55af5d-4555-4293-a434-84edf66f77c5"/>
+    <managerType typeId="c6c9f959-d5fd-4101-a94e-4fb1ebcf4a36" valueTypeId="69d4f36e-b4ff-42c4-a44c-e4de43395094"/>
+  </producedTypes>
+  <name>ВидыФормОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды форм отчетности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab84b304-a2ca-43a4-9d8f-a750f5b2d4f7">
+    <name>До4кв2018</name>
+    <synonym>
+      <key>ru</key>
+      <value> до 4 кв. 2019 г.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8023f24-4a06-4289-85f8-db71a00621bf">
+    <name>НачинаяС4Кв2019</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начиная с4 кв. 2019г.</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7111828a-2ddc-4641-83e1-45a0a53c99fe">
+  <producedTypes>
+    <selectionType typeId="1155f1de-b31f-4054-a0f4-b2e3eab49c9a" valueTypeId="0cbdcf2c-b823-4a97-8088-11d494a74fc4"/>
+    <listType typeId="eed02b23-34b9-412a-b9f2-8965a546f791" valueTypeId="024367c9-9807-4c6b-a8a8-ddfb88b816b5"/>
+    <managerType typeId="6b8fb742-5b40-4ace-a3a9-6d29e3652d1e" valueTypeId="b103f196-8c96-4169-8717-36539bf61cee"/>
+    <recordSetType typeId="896dbd87-7595-4888-926e-af573ab6decd" valueTypeId="1dcefa0c-e9f2-4477-9dc5-78cda23837aa"/>
+    <recordKeyType typeId="c74dc3b3-9c94-4e15-949b-5327081da5a0" valueTypeId="6079792c-168a-4b80-8f36-4abbddd638c6"/>
+    <recordType typeId="05457c29-b8fc-4250-992d-4e352d66ac01" valueTypeId="d25f5dd7-6f48-46e6-adf1-caf2cb01601a"/>
+  </producedTypes>
+  <name>СРО_ПоказателиДокументовОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО Показатели документов отчетности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4b9fa352-50c9-42c6-8204-0330f57aeb7a">
+    <name>Показатель1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="10ffb299-d2a7-4eaf-a273-149a92a535ff">
+    <name>Показатель2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d625980f-dbd0-4f5c-80a9-fefbca611261">
+    <name>Показатель3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель3</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="010fbcdc-4cce-4e77-bc02-2207dfbfeb32">
+    <name>Показатель4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель4</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0f5a477f-8ee5-469b-be68-cf9570af7773">
+    <name>Показатель5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель5</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="465f5863-4b79-497a-9116-9c99b593d86a">
+    <name>Показатель6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель6</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="55b55a6f-355b-441a-aa16-a3b4b7deb03e">
+    <name>Показатель7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель7</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="73c5453f-0baf-4920-a7bb-59937a70fe81">
+    <name>Показатель8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель8</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0856d234-7f46-4d9a-86c5-180849ba636d">
+    <name>Показатель9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель9</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="12a5ede8-909b-424b-92cb-7d911170d5f3">
+    <name>Показатель10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель10</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="3b5f193f-e133-48bb-a691-d4e60fb32c45">
+    <name>Показатель11</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель11</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="374b9734-e8e8-49f5-a87e-9c1dbf2f470f">
+    <name>Показатель12</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель12</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="2a5f4719-660c-4699-b474-482fd3e6235e">
+    <name>Показатель13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель13</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="40a24acc-70d7-46b0-971b-de30f8130438">
+    <name>Показатель14</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель14</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="2102e3aa-150d-4006-a67a-2fb966fd8d39">
+    <name>ПорядокСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок сортировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="abd377de-8952-4132-8278-b0d7c69a4e9b">
+    <name>ВидЗадолжностиОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид задолжности основной</value>
+    </synonym>
+    <comment>1 - &quot;сумма задолжности&quot;, 0 - &quot;&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="90426177-f5d0-43f4-8e33-682e8c666a45">
+    <name>ВидЗадолжностиДополнительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид задолжности дополнительный</value>
+    </synonym>
+    <comment>1 - &quot;РВПЗ&quot;, 0 - &quot;&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="97a6a5be-9846-4b58-9b91-306e44a11196">
+    <name>КПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПК</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7c191ae6-a418-4079-b85c-0a3199ed6a55">
+    <name>ДокументОтчетности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ отчетности</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОтчетностьКПК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="594f0270-1e1b-4a65-badd-6c234a942025">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СРО_РазделыБО</types>
+      <types>CatalogRef.Разделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

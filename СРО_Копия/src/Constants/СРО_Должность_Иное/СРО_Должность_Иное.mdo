@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8b078d1-b196-41c2-84ae-0c0c1adc09f9">
+  <producedTypes>
+    <managerType typeId="4906f19a-b869-4dd9-a610-d1658ee48f40" valueTypeId="e9cd266b-2870-42f5-ad7d-527363961179"/>
+    <valueManagerType typeId="d53f426d-c393-4031-bfeb-cca0d488bca9" valueTypeId="a01a0003-a0b7-45c6-831e-b3e2cea1a351"/>
+    <valueKeyType typeId="6e7ffe88-3a4f-4495-a0b5-61fe4050f399" valueTypeId="6594a494-a311-49f1-b7f3-fb581eb093d9"/>
+  </producedTypes>
+  <name>СРО_Должность_Иное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность (иное)  СРО</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Должности</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

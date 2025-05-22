@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4261472-12cd-40fd-a1a4-ac6241e9a973">
+  <producedTypes>
+    <managerType typeId="b5fd6d77-55b4-4bf1-bb83-e436bc5a23a2" valueTypeId="392b41b6-80e6-4d8d-b14a-5b225b40a78f"/>
+    <valueManagerType typeId="4faceb3b-d6dd-4ab7-9320-3c755d144517" valueTypeId="806bce2e-279e-4a50-8a4c-96ff05b1280a"/>
+    <valueKeyType typeId="e212fc54-cf47-4158-8779-a08b618d5446" valueTypeId="3a172a3b-31c6-4b92-98f2-d8a99cd524b9"/>
+  </producedTypes>
+  <name>СРО_ПроверяемыйНомерВОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРО проверяемый номер в очереди</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
